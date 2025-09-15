@@ -1,37 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Buxxz Stationery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <title>{{ config('app.name', 'Laravel') }}</title>
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+
+    <!-- Theme Styles -->
+    <link rel="stylesheet" href="{{ asset('assets/icons/iconly/index.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/icons/fontawesome/css/all.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/icons/flaticon/flaticon_pixio.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/icons/themify/themify-icons.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/icons/line-awesome/css/line-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/icons/feather/css/iconfont.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/niceselect/css/nice-select.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/magnific-popup/magnific-popup.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/nouislider/nouislider.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/animate/animate.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/slick/slick.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/lightgallery/dist/css/lightgallery.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/lightgallery/dist/css/lg-thumbnail.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/lightgallery/dist/css/lg-zoom.css') }}">
+
+    <!-- Main Theme Style -->
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+
+    <!-- Laravel’s own build (optional if you want Tailwind from Breeze too) -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="bg-gray-50 text-gray-800 font-sans">
+<body class="font-sans antialiased">
+    <div class="min-h-screen bg-gray-100">
+        @include('layouts.navigation')
 
-    <!-- Premium Navbar -->
-    <nav class="bg-white shadow-md sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-            <a href="{{ url('/') }}" class="text-2xl font-extrabold text-blue-600">Buxxz</a>
-            <div class="space-x-6">
-                <a href="{{ url('/') }}" class="text-gray-600 hover:text-blue-600">Home</a>
-                <a href="#" class="text-gray-600 hover:text-blue-600">About</a>
-                <a href="#" class="text-gray-600 hover:text-blue-600">Contact</a>
-            </div>
-        </div>
-    </nav>
+        <!-- Page Heading -->
+        @yield('header')
 
-    <main class="max-w-7xl mx-auto p-6">
-        @yield('content')
-    </main>
+        <!-- Page Content -->
+        <main>
+            @yield('content')
+        </main>
+    </div>
 
-    <footer class="bg-gray-900 text-gray-300 mt-12">
-        <div class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
-            <p>&copy; {{ date('Y') }} Buxxz Stationery. All rights reserved.</p>
-            <p class="text-sm">Premium stationery for modern professionals.</p>
-        </div>
-    </footer>
-
+    <!-- Scripts -->
+    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor/wow/wow.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor/counter/waypoints-min.js') }}"></script>
+    <script src="{{ asset('assets/vendor/counter/counterup.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor/magnific-popup/magnific-popup.js') }}"></script>
+    <script src="{{ asset('assets/vendor/imagesloaded/imagesloaded.js') }}"></script>
+    <script src="{{ asset('assets/vendor/masonry/masonry-4.2.2.js') }}"></script>
+    <script src="{{ asset('assets/vendor/masonry/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor/countdown/jquery.countdown.js') }}"></script>
+    <script src="{{ asset('assets/vendor/wnumb/wNumb.js') }}"></script>
+    <script src="{{ asset('assets/vendor/nouislider/nouislider.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor/slick/slick.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor/lightgallery/dist/lightgallery.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor/lightgallery/dist/plugins/thumbnail/lg-thumbnail.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor/lightgallery/dist/plugins/zoom/lg-zoom.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor/niceselect/js/jquery.nice-select.js') }}"></script>
+    <script src="{{ asset('assets/vendor/alpine/alpineplugin.js') }}"></script>
+    <script src="{{ asset('assets/vendor/alpine/alpine.js') }}"></script>
+    <script src="{{ asset('assets/js/dz.carousel.js') }}"></script>
+    <script src="{{ asset('assets/js/dz.ajax.js') }}"></script>
+    <script src="{{ asset('assets/js/custom.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor/group-slide/group-loop.js') }}"></script>
 </body>
 
 </html>

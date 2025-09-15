@@ -17,4 +17,9 @@ class StoreController extends Controller
     {
         return view('store.show', compact('product'));
     }
+    public function listings()
+    {
+        return view('store.listings');
+    }
+
 }
