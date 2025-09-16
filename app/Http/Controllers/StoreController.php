@@ -21,5 +21,14 @@ class StoreController extends Controller
     {
         return view('store.listings');
     }
-
+    public function categories()
+    {
+        // Later you can fetch real categories from DB
+        return view('store.categories');
+    }
+    public function shopList()
+    {
+        // Later this will return products, for now just static
+        return view('store.shop-list');
+    }
 }

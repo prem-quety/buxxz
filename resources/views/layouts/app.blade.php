@@ -35,21 +35,31 @@
     <!-- Main Theme Style -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
-    <!-- Laravel’s own build (optional if you want Tailwind from Breeze too) -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
 <body class="font-sans antialiased">
-    <div class="min-h-screen bg-gray-100">
+
+    <div class="page-wraper">
+
+        {{-- Preloader --}}
+        <div id="loading-area" class="items-center fixed z-[999999] left-0 top-0 size-full flex justify-center duration-1000
+             bg-center bg-[length:150px] bg-no-repeat backdrop-blur-md
+             [background:linear-gradient(180deg,_#feeb9d_0%,_#fffaf3_100%)] preloader-wrapper-2">
+            <div class="w-[150px] h-13.5 border-b-4 border-secondary relative loader"></div>
+        </div>
+
+        {{-- Header --}}
         @include('layouts.navigation')
 
-        <!-- Page Heading -->
-        @yield('header')
-
-        <!-- Page Content -->
+        {{-- Page Content --}}
         <main>
             @yield('content')
         </main>
+
+        {{-- Footer --}}
+        @include('layouts.footer')
+
     </div>
 
     <!-- Scripts -->

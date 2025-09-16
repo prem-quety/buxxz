@@ -61,7 +61,7 @@
                             </select>
                         </div>
                         <input type="text"
-                            class="py-2.5 px-5 text-2sm text-title outline-none flex-auto w-[1%] h-[45px]"
+                            class="py-2.5 px-5 text-2sm text-title outline-none flex-auto w-[1%] h-[45px] border-0"
                             aria-label="Text input with dropdown button" placeholder="Search for products">
                         <button class="absolute right-0 size-12 justify-center inline-flex items-center" type="button">
                             <i class="iconly-Light-Search text-secondary"></i>
@@ -114,143 +114,17 @@
                                     <a href="javascript:void(0);">
                                         <i class="icon feather icon-arrow-right"></i>
                                         <span>Clothes</span>
-                                        <span class="menu-icon">
-                                            <i class="icon feather icon-chevron-right"></i>
-                                        </span>
-                                    </a>
-                                    <div class="mega-menu">
-                                        <div class="row">
-                                            <div class="md:w-1/4 sm:w-1/3 w-1/2"><a href="javascript:void(0);"
-                                                    class="menu-title">Smart Home Products</a>
-                                                <ul>
-                                                    <li><a href="{{ route('store.listings') }}">Thermostats</a></li>
-                                                    <li><a href="{{ route('store.listings') }}">Lighting</a></li>
-                                                    <li><a href="{{ route('store.listings') }}">Security Systems</a>
-                                                    </li>
-                                                    <li><a href="{{ route('store.listings') }}">Locks</a></li>
-                                                    <li><a href="{{ route('store.listings') }}">Home Assistants</a></li>
-                                                    <li><a href="{{ route('store.listings') }}">Home Entertainment
-                                                            Systems</a>
-                                                    </li>
-                                                    <li><a href="{{ route('store.listings') }}">Blinds And Shades</a>
-                                                    </li>
-                                                    <li><a href="{{ route('store.listings') }}">Water Monitors</a></li>
 
-                                                </ul>
-                                            </div>
-                                            <div class="md:w-1/4 sm:w-1/3 w-1/2"><a href="shop-standard.html"
-                                                    class="menu-title">Smart Home Products</a>
-                                                <ul>
-                                                    <li><a href="shop-standard.html">Thermostats</a></li>
-                                                    <li><a href="shop-standard.html">Lighting</a></li>
-                                                    <li><a href="shop-standard.html">Security Systems</a></li>
-                                                    <li><a href="shop-standard.html">Locks</a></li>
-                                                    <li><a href="shop-standard.html">Home Assistants</a></li>
-                                                    <li><a href="shop-standard.html">Home Entertainment Systems</a></li>
-                                                    <li><a href="shop-standard.html">Blinds And Shades</a></li>
-                                                    <li><a href="shop-standard.html">Water Monitors</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="md:w-1/4 sm:w-1/3 w-1/2"> <a href="shop-standard.html"
-                                                    class="menu-title">Smart Home Products</a>
-                                                <ul>
-                                                    <li><a href="shop-standard.html">Thermostats</a></li>
-                                                    <li><a href="shop-standard.html">Lighting</a></li>
-                                                    <li><a href="shop-standard.html">Security Systems</a></li>
-                                                    <li><a href="shop-standard.html">Locks</a></li>
-                                                    <li><a href="shop-standard.html">Home Assistants</a></li>
-                                                    <li><a href="shop-standard.html">Home Entertainment Systems</a></li>
-                                                    <li><a href="shop-standard.html">Blinds And Shades</a></li>
-                                                    <li><a href="shop-standard.html">Water Monitors<span
-                                                                class="inline-block py-1 px-1.1 max-sm:py-0.5 max-sm:px-2 text-[11px] font-Lufga leading-[1] uppercase text-center font-medium rounded-md text-white ml-1 bg-red">Offer</span></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="md:w-1/4 sm:w-1/3 w-1/2"> <a href="shop-standard.html"
-                                                    class="menu-title">Smart Home Products</a>
-                                                <ul>
-                                                    <li><a href="shop-standard.html">Thermostats</a></li>
-                                                    <li><a href="shop-standard.html">Lighting<span
-                                                                class="inline-block py-1 px-1.1 max-sm:py-0.5 max-sm:px-2 text-[11px] font-Lufga leading-[1] uppercase text-center font-medium rounded-md text-white ml-1 bg-secondary">Exclusive</span></a>
-                                                    </li>
-                                                    <li><a href="shop-standard.html">Security Systems</a></li>
-                                                    <li><a href="shop-standard.html">Locks</a></li>
-                                                    <li><a href="shop-standard.html">Home Assistants</a></li>
-                                                    <li><a href="shop-standard.html">Home Entertainment Systems</a></li>
-                                                    <li><a href="shop-standard.html">Blinds And Shades</a></li>
-                                                    <li><a href="shop-standard.html">Water Monitors</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="md:w-1/4 sm:w-1/3 w-1/2"><a href="shop-standard.html"
-                                                    class="menu-title">Smart Home Products</a>
-                                                <ul>
-                                                    <li><a href="shop-standard.html">Thermostats</a></li>
-                                                    <li><a href="shop-standard.html">Lighting<span
-                                                                class="inline-block py-1 px-1.1 max-sm:py-0.5 max-sm:px-2 text-[11px] font-Lufga leading-[1] uppercase text-center font-medium rounded-md text-white ml-1 bg-orange">Feture</span></a>
-                                                    </li>
-                                                    <li><a href="shop-standard.html">Security Systems</a></li>
-                                                    <li><a href="shop-standard.html">Locks</a></li>
-                                                    <li><a href="shop-standard.html">Home Assistants</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="md:w-1/4 sm:w-1/3 w-1/2"> <a href="shop-standard.html"
-                                                    class="menu-title">Smart Home Products</a>
-                                                <ul>
-                                                    <li><a href="shop-standard.html">Thermostats</a></li>
-                                                    <li><a href="shop-standard.html">Lighting</a></li>
-                                                    <li><a href="shop-standard.html">Security Systems</a></li>
-                                                    <li><a href="shop-standard.html">Locks<span
-                                                                class="inline-block py-1 px-1.1 max-sm:py-0.5 max-sm:px-2 text-[11px] font-Lufga leading-[1] uppercase text-center font-medium rounded-md text-white ml-1 bg-purple">SALE</span></a>
-                                                    </li>
-                                                    <li><a href="shop-standard.html">Home Assistants</a></li>
-                                                    <li><a href="shop-standard.html">Home Entertainment Systems</a></li>
-                                                    <li><a href="shop-standard.html">Blinds And Shades</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="md:w-1/4 sm:w-1/3 w-1/2"> <a href="shop-standard.html"
-                                                    class="menu-title">Smart Home Products</a>
-                                                <ul>
-                                                    <li><a href="shop-standard.html">Thermostats</a></li>
-                                                    <li><a href="shop-standard.html">Lighting</a></li>
-                                                    <li><a href="shop-standard.html">Security Systems</a></li>
-                                                    <li><a href="shop-standard.html">Locks</a></li>
-                                                    <li><a href="shop-standard.html">Home Assistants</a></li>
-                                                    <li><a href="shop-standard.html">Home Entertainment Systems</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="md:w-1/4 sm:w-1/3 w-1/2"> <a href="shop-standard.html"
-                                                    class="menu-title">Smart Home Products</a>
-                                                <ul>
-                                                    <li><a href="shop-standard.html">Thermostats</a></li>
-                                                    <li><a href="shop-standard.html">Lighting</a></li>
-                                                    <li><a href="shop-standard.html">Security Systems</a></li>
-                                                    <li><a href="shop-standard.html">Locks</a></li>
-                                                    <li><a href="shop-standard.html">Home Assistants</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    </a>
+
                                 </li>
                                 <li class="cate-drop">
                                     <a href="javascript:void(0);">
                                         <i class="icon feather icon-arrow-right"></i>
                                         <span>UrbanSkirt</span>
-                                        <span class="menu-icon">
-                                            <i class="icon feather icon-chevron-right"></i>
-                                        </span>
+
                                     </a>
-                                    <ul class="sub-menu">
-                                        <li><a href="shop-standard.html">Thermostats</a></li>
-                                        <li><a href="shop-standard.html">Lighting</a></li>
-                                        <li><a href="shop-standard.html">Security Systems</a></li>
-                                        <li><a href="shop-standard.html">Locks</a></li>
-                                        <li><a href="shop-standard.html">Home Assistants</a></li>
-                                        <li><a href="shop-standard.html">Entertainment Systems</a></li>
-                                        <li><a href="shop-standard.html">Blinds And Shades</a></li>
-                                        <li><a href="shop-standard.html">Appliances</a></li>
-                                        <li><a href="shop-standard.html">Water Monitors</a></li>
-                                        <li><a href="shop-standard.html">Gardening Systems</a></li>
-                                    </ul>
+
                                 </li>
 
                                 <li>
@@ -337,315 +211,13 @@
                             </div>
                         </li>
                         <li class="has-mega-menu sub-menu-down">
-                            <a href="javascript:void(0);"><span>Shop</span><i
+                            <a href="{{ route('store.shoplist') }}"><span>Shop</span><i
                                     class="fas fa-chevron-down tabindex"></i></a>
-                            <div class="mega-menu shop-menu">
-                                <div class="row">
-                                    <div class="lg:w-2/3 w-full">
-                                        <div class="row">
-                                            <div class="md:w-1/3 w-1/2">
-                                                <a href="javascript:void(0);" class="menu-title">Shop Structure</a>
-                                                <ul>
-                                                    <li><a href="shop-standard.html">Shop Standard</a></li>
-                                                    <li><a href="shop-list.html">Shop List</a></li>
-                                                    <li><a href="shop-with-category.html">Shop With Category</a></li>
-                                                    <li><a href="shop-filters-top-bar.html">Shop Filters Top Bar</a>
-                                                    </li>
-                                                    <li><a href="shop-sidebar.html">Shop Sidebar</a></li>
-                                                    <li><a href="shop-style-1.html">Shop Style 1</a></li>
-                                                    <li><a href="shop-style-2.html">Shop Style 2</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="md:w-1/3 w-1/2">
-                                                <a href="javascript:void(0);" class="menu-title">Product Structure</a>
-                                                <ul>
-                                                    <li><a href="product-default.html">Default</a></li>
-                                                    <li><a href="product-thumbnail.html">Thumbnail</a></li>
-                                                    <li><a href="product-grid-media.html">Grid Media</a></li>
-                                                    <li><a href="product-carousel.html">Carousel</a></li>
-                                                    <li><a href="product-full-width.html">Full Width</a></li>
 
-                                                </ul>
-                                            </div>
-                                            <div class="md:w-1/3 w-1/2">
-                                                <a href="javascript:void(0);" class="menu-title">Shop Pages</a>
-                                                <ul>
-                                                    <li><a href="shop-wishlist.html">Wishlist</a></li>
-                                                    <li><a href="shop-cart.html">Cart</a></li>
-                                                    <li><a href="shop-checkout.html">Checkout</a></li>
-                                                    <li><a href="shop-compare.html">Compare</a></li>
-                                                    <li><a href="shop-order-tracking.html">Order Tracking</a></li>
-                                                    <li><a href="shop-my-account.html">My Account</a></li>
-                                                    <li><a href="shop-registration.html">Registration</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="w-full">
-                                                <div class="month-deal">
-                                                    <div>
-                                                        <h3>Deal of the month</h3>
-                                                        <p class="mb-0">Yes! Send me exclusive offers, personalised, and
-                                                            unique gift ideas, tips for shopping on Pixio <a
-                                                                href="shop-standard.html" class="dz-link-2">View All
-                                                                Products</a></p>
-                                                    </div>
-                                                    <div class="sale-countdown">
-                                                        <div class="countdown text-center">
-                                                            <div class="date"><span
-                                                                    class="time days text-primary"></span>
-                                                                <span class="work-time">Days</span>
-                                                            </div>
-                                                            <div class="date"><span
-                                                                    class="time hours text-primary"></span>
-                                                                <span class="work-time">Hours</span>
-                                                            </div>
-                                                            <div class="date"><span
-                                                                    class="time mins text-primary"></span>
-                                                                <span class="work-time">Minutess</span>
-                                                            </div>
-                                                            <div class="date"><span
-                                                                    class="time secs text-primary"></span>
-                                                                <span class="work-time">Second</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="md:w-1/3 hidden lg:block">
-                                        <div class="adv-media"><img src="assets/images/adv-1.png" alt="/"></div>
-                                    </div>
-                                </div>
-                            </div>
                         </li>
-                        <li class="has-mega-menu sub-menu-down"><a href="javascript:void(0);"><span>Blog</span><i
-                                    class="fas fa-chevron-down tabindex"></i></a>
-                            <div class="mega-menu">
-                                <div class="row">
-                                    <div class="md:w-1/4 w-1/2">
-                                        <a href="javascript:void(0);" class="menu-title">Blog Dark Style</a>
-                                        <ul>
-                                            <li><a href="blog-dark-2-column.html">Blog 2 Column</a></li>
-                                            <li><a href="blog-dark-2-column-sidebar.html">Blog 2 Column Sidebar</a></li>
-                                            <li><a href="blog-dark-3-column.html">Blog 3 Column</a></li>
-                                            <li><a href="blog-dark-half-image.html">Blog Half Image</a></li>
-                                        </ul>
-                                        <a href="javascript:void(0);" class="menu-title">Blog Light Style</a>
-                                        <ul>
-                                            <li><a href="blog-light-2-column.html">Blog 2 Column</a></li>
-                                            <li><a href="blog-light-2-column-sidebar.html">Blog 2 Column Sidebar</a>
-                                            </li>
-                                            <li><a href="blog-light-half-image.html">Blog Half Image</a></li>
-                                            <li><a href="blog-exclusive.html">Blog Exclusive</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="md:w-1/4 w-1/2">
-                                        <a href="javascript:void(0);" class="menu-title">Blog Sidebar</a>
-                                        <ul>
-                                            <li><a href="blog-left-sidebar.html">Blog left Sidebar</a></li>
-                                            <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                            <li><a href="blog-both-sidebar.html">Blog Both Sidebar</a></li>
-                                            <li><a href="blog-wide-sidebar.html">Blog Wide Sidebar</a></li>
-                                        </ul>
-                                        <a href="javascript:void(0);" class="menu-title">Blog Page</a>
-                                        <ul>
-                                            <li><a href="blog-archive.html">Blog Archive</a></li>
-                                            <li><a href="blog-author.html">Author</a></li>
-                                            <li><a href="blog-category.html">Blog Category</a></li>
-                                            <li><a href="blog-tag.html">Blog Tag</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="md:w-1/4 w-1/2">
-                                        <a href="javascript:void(0);" class="menu-title">Blog Details</a>
-                                        <ul>
-                                            <li><a href="post-standard.html">Post Standard</a></li>
-                                            <li><a href="post-left-sidebar.html">Post Left Sidebar</a></li>
-                                            <li><a href="post-header-image.html">Post Header Image</a></li>
-                                            <li><a href="post-slide-show.html">Post Slide Show</a></li>
-                                            <li><a href="post-side-image.html">Post Side Image</a></li>
-                                            <li><a href="post-gallery.html">Post Gallery</a></li>
-                                            <li><a href="post-gallery-alternative.html">Post Gallery Alternative</a>
-                                            </li>
-                                            <li><a href="post-open-gutenberg.html">Post Open Gutenberg</a></li>
-                                            <li><a href="post-link.html">Post Link</a></li>
-                                            <li><a href="post-audio.html">Post Audio</a></li>
-                                            <li><a href="post-video.html">Post Video</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="md:w-1/4 sm:w-1/2 w-full">
-                                        <a href="javascript:void(0);" class="menu-title">Recent Posts</a>
-                                        <div class="widget widget_post pt-2">
-                                            <ul>
-                                                <li>
-                                                    <div class="dz-media">
-                                                        <img src="assets/images/shop/product/small/1.png" alt="">
-                                                    </div>
-                                                    <div class="dz-content">
-                                                        <h6 class="name"><a href="post-standard.html">Cozy Knit Cardigan
-                                                                Sweater</a></h6>
-                                                        <span class="time">July 23, 2024</span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="dz-media">
-                                                        <img src="assets/images/shop/product/small/2.png" alt="">
-                                                    </div>
-                                                    <div class="dz-content">
-                                                        <h6 class="name"><a href="post-standard.html">Sophisticated
-                                                                Swagger Suit</a></h6>
-                                                        <span class="time">July 23, 2024</span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="dz-media">
-                                                        <img src="assets/images/shop/product/small/3.png" alt="">
-                                                    </div>
-                                                    <div class="dz-content">
-                                                        <h6 class="name"><a href="post-standard.html">Athletic Mesh
-                                                                Sports Leggings</a></h6>
-                                                        <span class="time">July 23, 2024</span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="dz-media">
-                                                        <img src="assets/images/shop/product/small/4.png" alt="">
-                                                    </div>
-                                                    <div class="dz-content">
-                                                        <h6 class="name"><a href="post-standard.html">Satin Wrap Party
-                                                                Blouse</a></h6>
-                                                        <span class="time">July 23, 2024</span>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="has-mega-menu sub-menu-down"><a href="javascript:void(0);"><span>Portfolio</span><i
-                                    class="fas fa-chevron-down tabindex"></i></a>
-                            <div class="mega-menu portfolio-menu">
-                                <div class="row">
-                                    <div class="xl:w-5/6 lg:w-3/4 md:w-3/4 pe-xl-5 pe-md-3 sm:w-2/3 ">
-                                        <ul class="row portfolio-nav-link">
-                                            <li class="col"><a href="portfolio-tiles.html"><img
-                                                        src="assets/images/portfolio/icons/portfolio-tiles.svg"
-                                                        alt="/"><span>Portfolio Tiles</span></a></li>
-                                            <li class="col"><a href="collage-style-1.html"><img
-                                                        src="assets/images/portfolio/icons/collage-style-1.svg"
-                                                        alt="/"><span>Collage Style 1</span></a></li>
-                                            <li class="col"><a href="collage-style-2.html"><img
-                                                        src="assets/images/portfolio/icons/collage-style-2.svg"
-                                                        alt="/"><span>Collage Style 2</span></a></li>
-                                            <li class="col"><a href="masonry-grid.html"><img
-                                                        src="assets/images/portfolio/icons/masonry-grid.svg"
-                                                        alt="/"><span>Masonry Grid</span></a></li>
-                                            <li class="col"><a href="cobble-style-1.html"><img
-                                                        src="assets/images/portfolio/icons/cobble-style-1.svg"
-                                                        alt="/"><span>Cobble Style 1</span></a></li>
-                                            <li class="col"><a href="cobble-style-2.html"><img
-                                                        src="assets/images/portfolio/icons/cobble-style-2.svg"
-                                                        alt="/"><span>Cobble Style 2</span></a></li>
-                                            <li class="col"><a href="portfolio-thumbs-slider.html"><img
-                                                        src="assets/images/portfolio/icons/portfolio-thumbs-slider.svg"
-                                                        alt="/"><span>Portfolio Thumbs Slider</span></a></li>
-                                            <li class="col"><a href="portfolio-film-strip.html"><img
-                                                        src="assets/images/portfolio/icons/portfolio-film-strip.svg"
-                                                        alt="/"><span>Portfolio Film Strip</span></a></li>
-                                            <li class="col"><a href="carousel-showcase.html"><img
-                                                        src="assets/images/portfolio/icons/carousel-showcase.svg"
-                                                        alt="/"><span>Carousel Showcase</span></a></li>
-                                            <li class="col"><a href="portfolio-split-slider.html"><img
-                                                        src="assets/images/portfolio/icons/portfolio-split-slider.svg"
-                                                        alt="/"><span>Portfolio Split Slider</span></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="xl:w-1/6 lg:w-1/4 md:w-1/4 line-left ps-3 pe-0 sm:w-1/3">
-                                        <a href="javascript:void(0);" class="menu-title">Portfolio Details</a>
-                                        <ul>
-                                            <li><a href="portfolio-details-1.html">Portfolio Details 1</a></li>
-                                            <li><a href="portfolio-details-2.html">Portfolio Details 2</a></li>
-                                            <li><a href="portfolio-details-3.html">Portfolio Details 3</a></li>
-                                            <li><a href="portfolio-details-4.html">Portfolio Details 4</a></li>
-                                            <li><a href="portfolio-details-5.html">Portfolio Details 5</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="has-mega-menu sub-menu-down"><a href="javascript:void(0);"><span>Pages</span><i
-                                    class="fas fa-chevron-down tabindex"></i></a>
-                            <div class="mega-menu">
-                                <div class="row md:justify-between">
-                                    <div class="md:w-1/6 sm:w-1/3 w-1/2">
-                                        <a href="javascript:void(0);" class="menu-title">Pages</a>
-                                        <ul>
-                                            <li><a href="about-us.html">About Us</a></li>
-                                            <li><a href="about-me.html">About Me</a></li>
-                                            <li><a href="pricing-table.html">Pricing Table</a></li>
-                                            <li><a href="our-gift-vouchers.html">Our Gift Vouchers</a></li>
-                                            <li><a href="what-we-do.html">What We Do</a></li>
-                                            <li><a href="faqs-1.html">Faqs 1</a></li>
-                                            <li><a href="faqs-2.html">Faqs 2</a></li>
-                                            <li><a href="our-team.html">Our Team</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="md:w-1/6 sm:w-1/3 w-1/2">
-                                        <a href="javascript:void(0);" class="menu-title">Contact Us</a>
-                                        <ul>
-                                            <li><a href="contact-us-1.html">Contact Us 1</a></li>
-                                            <li><a href="contact-us-2.html">Contact Us 2</a></li>
-                                            <li><a href="contact-us-3.html">Contact Us 3</a></li>
-                                        </ul>
-                                        <a href="javascript:void(0);" class="menu-title">Web Pages</a>
-                                        <ul>
-                                            <li><a href="error-1.html">Error 404 1</a></li>
-                                            <li><a href="error-2.html">Error 404 2</a></li>
-                                            <li><a href="coming-soon.html">Coming Soon</a></li>
-                                            <li><a href="under-construction.html">Under Construction</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="md:w-1/6 sm:w-1/3 w-1/2">
-                                        <a href="javascript:void(0);" class="menu-title">Banner Style</a>
-                                        <ul>
-                                            <li><a href="banner-with-bg-color.html">Banner with BG Color</a></li>
-                                            <li><a href="banner-with-image.html">Banner with Image</a></li>
-                                            <li><a href="banner-with-video.html">Banner with Video</a></li>
-                                            <li><a href="banner-with-kanbern.html">Banner with Kanbern</a></li>
-                                            <li><a href="banner-small.html">Banner Small</a></li>
-                                            <li><a href="banner-medium.html">Banner Medium</a></li>
-                                            <li><a href="banner-large.html">Banner Large</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="md:w-1/6 sm:w-1/3 w-1/2">
-                                        <a href="javascript:void(0);" class="menu-title">Header Style</a>
-                                        <ul>
-                                            <li><a href="header-style-1.html">Header Style 1</a></li>
-                                            <li><a href="header-style-2.html">Header Style 2</a></li>
-                                            <li><a href="header-style-3.html">Header Style 3</a></li>
-                                            <li><a href="header-style-4.html">Header Style 4</a></li>
-                                            <li><a href="header-style-5.html">Header Style 5</a></li>
-                                            <li><a href="header-style-6.html">Header Style 6</a></li>
-                                            <li><a href="header-style-7.html">Header Style 7</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="md:w-1/6 sm:w-1/3 w-1/2">
-                                        <a href="javascript:void(0);" class="menu-title">Footer Style</a>
-                                        <ul>
-                                            <li><a href="footer-style-1.html">Footer Style 1</a></li>
-                                            <li><a href="footer-style-2.html">Footer Style 2</a></li>
-                                            <li><a href="footer-style-3.html">Footer Style 3</a></li>
-                                            <li><a href="footer-style-4.html">Footer Style 4</a></li>
-                                            <li><a href="footer-style-5.html">Footer Style 5</a></li>
-                                            <li><a href="footer-style-6.html">Footer Style 6</a></li>
-                                            <li><a href="footer-style-7.html">Footer Style 7</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
+
+
+
                         <li class="sub-menu-down">
                             <a href="javascript:void(0);" class="after-remover">My Account
                                 <i class="fas fa-chevron-down tabindex"></i>
@@ -691,15 +263,15 @@
                         <ul class="header-right">
                             @guest
                                 <li class="nav-item login-link">
-                                    <a class="nav-link border-b border-[#0000005c]" href="{{ route('login') }}">
-                                        Login
+                                    <a class="nav-link font-medium border-b border-[#0000005c]" href="{{ route('login') }}">
+                                        Login / Register
                                     </a>
                                 </li>
-                                <li class="nav-item register-link">
-                                    <a class="nav-link border-b border-[#0000005c]" href="{{ route('register') }}">
-                                        Register
-                                    </a>
-                                </li>
+                                <!-- <li class="nav-item register-link">
+                                                                                            <a class="nav-link border-b border-[#0000005c]" href="{{ route('register') }}">
+                                                                                                Register
+                                                                                            </a>
+                                                                                        </li> -->
                             @else
                                 <li class="nav-item">
                                     <span class="nav-link  border-[#0000005c]">
@@ -709,7 +281,7 @@
                                 <li>
                                     <form method="POST" action="{{ route('logout') }}">
                                         @csrf
-                                        <button type="submit" class="nav-link border border-[#0000005c]">
+                                        <button type="submit" class="nav-link ">
                                             Logout
                                         </button>
                                     </form>
