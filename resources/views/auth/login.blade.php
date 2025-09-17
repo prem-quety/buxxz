@@ -6,9 +6,10 @@
             <div class="row align-center-center">
 
                 <!-- Left side -->
-                <div class="col-xxl-6 lg:w-1/2 w-full relative bg-[#0faaba]/50 z-1
-                         after:content-[''] after:absolute after:bottom-0 after:left-[16%] 
-                         after:w-[51%] after:h-3/5 after:bg-white after:rounded-t-full after:z-[-2] start-side-content">
+                <div
+                    class="col-xxl-6 lg:w-1/2 w-full relative bg-[#0faaba]/50 z-1
+                             after:content-[''] after:absolute after:bottom-0 after:left-[16%] 
+                             after:w-[51%] after:h-3/5 after:bg-white after:rounded-t-full after:z-[-2] start-side-content">
 
                     <div class="dz-bnr-inr-entry">
                         <h1 class="xl:text-4.5xl md:text-4xl sm:text-3xl text-2xl mb-2">My Account</h1>
@@ -18,8 +19,8 @@
                                     <a href="{{ url('/') }}">Home</a>
                                 </li>
                                 <li class="mr-[3px] pl-2 inline-block text-base font-medium 
-                                                                       before:content-['\f105'] before:font-['Font_Awesome_5_Free'] 
-                                                                       before:font-bold before:pr-3">
+                                                                           before:content-['\f105'] before:font-['Font_Awesome_5_Free'] 
+                                                                           before:font-bold before:pr-3">
                                     My Account
                                 </li>
                             </ul>

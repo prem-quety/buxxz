@@ -100,25 +100,25 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="shop-standard.html">
+                                    <a href="javascript:void(0);">
                                         <i class="icon feather icon-arrow-right"></i>
                                         <span>Notebooks & Diaries</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="shop-standard.html">
+                                    <a href="javascript:void(0);">
                                         <i class="icon feather icon-arrow-right"></i>
                                         <span>Art & Craft Supplies</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="shop-standard.html">
+                                    <a href="javascript:void(0);">
                                         <i class="icon feather icon-arrow-right"></i>
                                         <span>Office Essentials</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="shop-standard.html">
+                                    <a href="javascript:void(0);">
                                         <i class="icon feather icon-arrow-right"></i>
                                         <span>School Supplies</span>
                                         <span
@@ -126,31 +126,31 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="shop-standard.html">
+                                    <a href="javascript:void(0);">
                                         <i class="icon feather icon-arrow-right"></i>
                                         <span>Files & Folders</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="shop-standard.html">
+                                    <a href="javascript:void(0);">
                                         <i class="icon feather icon-arrow-right"></i>
                                         <span>Markers & Highlighters</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="shop-standard.html">
+                                    <a href="javascript:void(0);">
                                         <i class="icon feather icon-arrow-right"></i>
                                         <span>Sticky Notes</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="shop-standard.html">
+                                    <a href="javascript:void(0);">
                                         <i class="icon feather icon-arrow-right"></i>
                                         <span>Staplers & Punches</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="shop-standard.html">
+                                    <a href="javascript:void(0);">
                                         <i class="icon feather icon-arrow-right"></i>
                                         <span>Accessories</span>
                                     </a>
@@ -178,30 +178,7 @@
 
 
 
-                        <li class="sub-menu-down">
-                            <a href="javascript:void(0);" class="after-remover">My Account
-                                <i class="fas fa-chevron-down tabindex"></i>
-                            </a>
-                            <ul class="sub-menu">
-                                <li><a href="account-dashboard.html">Dashboard</a></li>
-                                <li><a href="account-orders.html">Orders</a></li>
-                                <li><a href="account-order-details.html">Orders Details</a></li>
-                                <li><a href="account-order-confirmation.html">Orders Confirmation</a></li>
-                                <li><a href="account-downloads.html">Downloads</a></li>
-                                <li><a href="account-return-request.html">Return Request</a></li>
-                                <li><a href="account-return-request-detail.html">Return Request Detail</a></li>
-                                <li><a href="account-refund-requests-confirmed.html">Return Request Confirmed</a></li>
-                                <li><a href="account-profile.html">Profile</a></li>
-                                <li><a href="account-address.html">Address</a></li>
-                                <li><a href="account-shipping-methods.html">Shipping methods</a></li>
-                                <li><a href="account-payment-methods.html">Payment Methods</a></li>
-                                <li><a href="account-review.html">Review</a></li>
-                                <li><a href="account-billing-address.html">Billing address</a></li>
-                                <li><a href="account-shipping-address.html">Shipping address</a></li>
-                                <li><a href="account-cancellation-requests.html">Cancellation Requests</a></li>
 
-                            </ul>
-                        </li>
                     </ul>
                     <div class="dz-social-icon">
                         <ul>
@@ -228,10 +205,10 @@
                                     </a>
                                 </li>
                                 <!-- <li class="nav-item register-link">
-                                                                                                                                                                                                                                <a class="nav-link border-b border-[#0000005c]" href="{{ route('register') }}">
-                                                                                                                                                                                                                                    Register
-                                                                                                                                                                                                                                </a>
-                                                                                                                                                                                                                            </li> -->
+                                                                                                                                                                                                                                        <a class="nav-link border-b border-[#0000005c]" href="{{ route('register') }}">
+                                                                                                                                                                                                                                            Register
+                                                                                                                                                                                                                                        </a>
+                                                                                                                                                                                                                                    </li> -->
                             @else
                                 <li class="nav-item">
                                     <span class="nav-link  border-[#0000005c]">

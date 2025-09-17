@@ -783,7 +783,7 @@
                     <div class="xl:w-1/6 w-1/3 wow fadeIn" data-wow-delay="0.4s">
                         <div class="block relative overflow-hidden group">
                             <a href="portfolio-tiles.html">
-                                <img src="assets/images/clothe/feature/4.jpg" alt=""
+                                <img src="assets/images/clothe/feature/7.webp" alt=""
                                     class="duration-300 group-hover:[transform:scale(1.3)_rotate(-20deg)] w-full">
                             </a>
                         </div>

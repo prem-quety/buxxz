@@ -14,33 +14,16 @@
                         </div>
                         <ul class="mb-6">
                             <li class="py-1 text-2sm font-medium">
-                                <p><span>Address</span> : 451 Wall Street, UK, London</p>
+                                <p><span>Address</span> : 451 Wall Street, Toronto, Canada</p>
                             </li>
                             <li class="py-1 text-2sm font-medium">
-                                <p><span>E-mail</span> : support@buzzx.com</p>
+                                <p><span>E-mail</span> : cs@buzzx.com</p>
                             </li>
                             <li class="py-1 text-2sm font-medium">
-                                <p><span>Phone</span> : (064) 332-1233</p>
+                                <p><span>Phone</span> : (000) 332-1233</p>
                             </li>
                         </ul>
-                        <h6 class="capitalize mb-2">Subscribe to our newsletter</h6>
-                        <form class="dzSubscribe style-1" action="{{ route('newsletter.subscribe') }}" method="post">
-                            @csrf
-                            <div class="dzSubscribeMsg"></div>
-                            <div class="form-group">
-                                <div class="relative flex flex-wrap items-stretch w-full">
-                                    <input name="dzEmail" required type="email"
-                                        class="w-[1%] flex-auto h-[45px] py-2.5 px-5 border border-white rounded-xl bg-light2 outline-none focus:shadow-focus"
-                                        placeholder="Your Email Address">
-                                    <div class="absolute right-0 top-1/2 z-9 -translate-y-1/2">
-                                        <button type="submit" class="size-13.5 group">
-                                            <i
-                                                class="icon feather icon-arrow-right text-xl group-hover:animate-toLeftFromRight"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
+
                     </div>
                 </div>
 
@@ -49,12 +32,8 @@
                     <div class="mb-7.5 font-medium">
                         <h5 class="text-xl leading-[1.2] mb-5">Our Stores</h5>
                         <ul>
-                            <li class="py-2 text-2sm"><a class="hover:text-primary" href="#">New York</a></li>
-                            <li class="py-2 text-2sm"><a class="hover:text-primary" href="#">London SF</a></li>
-                            <li class="py-2 text-2sm"><a class="hover:text-primary" href="#">Edinburgh</a></li>
-                            <li class="py-2 text-2sm"><a class="hover:text-primary" href="#">Los Angeles</a></li>
-                            <li class="py-2 text-2sm"><a class="hover:text-primary" href="#">Chicago</a></li>
-                            <li class="py-2 text-2sm"><a class="hover:text-primary" href="#">Las Vegas</a></li>
+                            <li class="py-2 text-2sm"><a class="hover:text-primary" href="#">Toronto</a></li>
+
                         </ul>
                     </div>
                 </div>
