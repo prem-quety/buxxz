@@ -1,0 +1,43 @@
+# version line intentionally omitted (Compose v2 ignores it)
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.app
+    container_name: buzzx-app
+    working_dir: /var/www/html
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - db
+    restart: always
+
+  web:
+    image: nginx:latest
+    container_name: buzzx-web
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/html
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - app
+    restart: always
+
+  db:
+    image: mysql:8.0
+    container_name: buzzx-db
+    environment:
+      MYSQL_DATABASE: buzzx_ecomm
+      MYSQL_USER: buzzx_user
+      MYSQL_PASSWORD: Qu3ry1e80!      # <-- matches your .env
+      MYSQL_ROOT_PASSWORD: StrongRootPassHere
+    ports:
+      - "3306:3306"                   # (optional) expose externally; you can remove this in production
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+
+volumes:
+  db_data:
