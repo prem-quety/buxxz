@@ -19,7 +19,7 @@
                                 <div class="size-13.5 flex items-center justify-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
                                         style="enable-background:new 0 0 512 512" xml:space="preserve">
-                                        <path style="fill:#3cc"
+                                        <path style="fill:#fff"
                                             d="M489.343 210.251c-4.827-105.317-92.01-189.513-198.498-189.513h-69.689c-106.488 0-193.67 84.197-198.498 189.513C9.495 214.747 0 227.228 0 241.894v78.61c0 18.436 15 33.436 33.437 33.436h60.996c6.075 0 11-4.925 11-11V219.458c0-6.075-4.925-11-11-11H44.789c5.699-92.338 82.618-165.72 176.366-165.72h69.689c93.749 0 170.667 73.381 176.366 165.72h-49.644c-6.075 0-11 4.925-11 11V342.94c0 6.075 4.925 11 11 11h60.996c18.436 0 33.436-15 33.436-33.436v-78.61c.002-14.666-9.493-27.147-22.655-31.643zM83.433 331.94H33.437c-6.306 0-11.437-5.13-11.437-11.436v-78.61c0-6.306 5.131-11.436 11.437-11.436h49.996V331.94zM490 320.504c0 6.306-5.131 11.436-11.436 11.436h-49.996V230.458h49.996c6.306 0 11.436 5.13 11.436 11.436v78.61z" />
                                         <path
                                             d="M256 491.262a11.001 11.001 0 0 1-8.402-3.9l-52.108-61.671h-74.566c-20.673 0-37.491-16.818-37.491-37.49V188.049c0-20.673 16.818-37.491 37.491-37.491h270.154c20.672 0 37.49 16.818 37.49 37.491V388.2c0 20.672-16.818 37.49-37.49 37.49h-74.566l-52.108 61.671a11.006 11.006 0 0 1-8.404 3.901zM120.923 172.558c-8.542 0-15.491 6.949-15.491 15.491V388.2c0 8.541 6.949 15.49 15.491 15.49h79.673c3.238 0 6.312 1.427 8.402 3.9L256 463.218l47.002-55.627a10.998 10.998 0 0 1 8.402-3.9h79.673c8.541 0 15.49-6.949 15.49-15.49V188.049c0-8.542-6.949-15.491-15.49-15.491H120.923z" />
@@ -28,8 +28,8 @@
                                     </svg>
                                 </div>
                                 <div>
-                                    <span class="text-2xs font-semibold">24/7 SUPPORT</span>
-                                    <h6>+123 456 789</h6>
+                                    <span class="text-2xs font-semibold text-white">24/7 SUPPORT</span>
+                                    <h6 class="text-white">+123 456 789</h6>
                                 </div>
                             </div>
                         </li>
@@ -110,77 +110,66 @@
                         </a>
                         <div class="category-menu-items" style="display: none;">
                             <ul class="nav navbar-nav">
-                                <li class="has-mega-menu cate-drop">
-                                    <a href="javascript:void(0);">
-                                        <i class="icon feather icon-arrow-right"></i>
-                                        <span>Clothes</span>
-
-                                    </a>
-
-                                </li>
                                 <li class="cate-drop">
                                     <a href="javascript:void(0);">
                                         <i class="icon feather icon-arrow-right"></i>
-                                        <span>UrbanSkirt</span>
-
-                                    </a>
-
-                                </li>
-
-                                <li>
-                                    <a href="shop-standard.html">
-                                        <i class="icon feather icon-arrow-right"></i>
-                                        <span>VelvetGown</span>
+                                        <span>Pens & Pencils</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="shop-standard.html">
                                         <i class="icon feather icon-arrow-right"></i>
-                                        <span>LushShorts</span>
+                                        <span>Notebooks & Diaries</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="shop-standard.html">
                                         <i class="icon feather icon-arrow-right"></i>
-                                        <span>Vintage</span>
+                                        <span>Art & Craft Supplies</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="shop-standard.html">
                                         <i class="icon feather icon-arrow-right"></i>
-                                        <span>Wedding </span>
+                                        <span>Office Essentials</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="shop-standard.html">
+                                        <i class="icon feather icon-arrow-right"></i>
+                                        <span>School Supplies</span>
                                         <span
-                                            class="inline-block py-1 px-1.1 max-sm:py-0.5 max-sm:px-2 text-[11px] font-Lufga leading-[1] uppercase text-center font-medium rounded-md text-white ml-1 bg-purple">SALE</span>
+                                            class="inline-block py-1 px-1.1 text-[11px] font-Lufga leading-[1] uppercase text-center font-medium rounded-md text-white ml-1 bg-purple">SALE</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="shop-standard.html">
                                         <i class="icon feather icon-arrow-right"></i>
-                                        <span>Cotton</span>
+                                        <span>Files & Folders</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="shop-standard.html">
                                         <i class="icon feather icon-arrow-right"></i>
-                                        <span>Linen</span>
+                                        <span>Markers & Highlighters</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="shop-standard.html">
                                         <i class="icon feather icon-arrow-right"></i>
-                                        <span>Navy</span>
+                                        <span>Sticky Notes</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="shop-standard.html">
                                         <i class="icon feather icon-arrow-right"></i>
-                                        <span>Urban</span>
+                                        <span>Staplers & Punches</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="shop-standard.html">
                                         <i class="icon feather icon-arrow-right"></i>
-                                        <span>Business Meeting</span>
+                                        <span>Accessories</span>
                                     </a>
                                 </li>
                                 <li class="menu-items">
@@ -192,23 +181,11 @@
                             </ul>
                         </div>
                     </div>
+
                     <ul class="nav navbar-nav">
-                        <li class="has-mega-menu sub-menu-down">
-                            <a href="javascript:void(0);"><span>Home</span><i
-                                    class="fas fa-chevron-down tabindex"></i></a>
-                            <div class="mega-menu demo-menu">
-                                <div class="row">
-                                    <div class="md:w-1/3 w-1/2"><a href="index.html"><img
-                                                src="assets/images/demo/demo-1.png" alt="/"> <span class="menu-title">01
-                                                Home Page</span></a></div>
-                                    <div class="md:w-1/3 w-1/2"><a href="index-2.html"><img
-                                                src="assets/images/demo/demo-2.png" alt="/"> <span class="menu-title">02
-                                                Home Page</span></a></div>
-                                    <div class="md:w-1/3 w-1/2"><a href="index-3.html"><img
-                                                src="assets/images/demo/demo-3.png" alt="/"> <span class="menu-title">03
-                                                Home Page</span></a></div>
-                                </div>
-                            </div>
+                        <li class="">
+                            <a href="{{route('store.index')}}"><span>Home</span></a>
+
                         </li>
                         <li class="has-mega-menu sub-menu-down">
                             <a href="{{ route('store.shoplist') }}"><span>Shop</span><i
@@ -268,10 +245,10 @@
                                     </a>
                                 </li>
                                 <!-- <li class="nav-item register-link">
-                                                                                            <a class="nav-link border-b border-[#0000005c]" href="{{ route('register') }}">
-                                                                                                Register
-                                                                                            </a>
-                                                                                        </li> -->
+                                                                                                                                                                                    <a class="nav-link border-b border-[#0000005c]" href="{{ route('register') }}">
+                                                                                                                                                                                        Register
+                                                                                                                                                                                    </a>
+                                                                                                                                                                                </li> -->
                             @else
                                 <li class="nav-item">
                                     <span class="nav-link  border-[#0000005c]">
@@ -504,12 +481,12 @@
                                             x-show="console.log('sup'); return show" x-transition.opacity>
                                             <div class="flex items-center justify-center">
                                                 <div class="size-20 rounded-3xl relative overflow-hidden mr-4">
-                                                    <img src="assets/images/shop/shop-cart/pic1.jpg" alt=""
-                                                        class="w-full">
+                                                    <img src="assets/images/shop/product/pic33.avif" alt=""
+                                                        class="w-full h-full">
                                                 </div>
                                                 <div class="mr-5 flex-[1]">
-                                                    <h6 class="mb-2 font-medium"><a
-                                                            href="product-thumbnail.html">Sophisticated Swagger Suit</a>
+                                                    <h6 class="mb-2 font-medium">
+                                                        <a href="product-thumbnail.html">Premium Ballpoint Pen Set</a>
                                                     </h6>
                                                     <div class="flex items-center">
                                                         <div class="input-group">
@@ -537,12 +514,13 @@
                                             x-show="console.log('sup'); return show" x-transition.opacity>
                                             <div class="flex items-center justify-center">
                                                 <div class="size-20 rounded-3xl relative overflow-hidden mr-4">
-                                                    <img src="assets/images/shop/shop-cart/pic2.jpg" alt=""
+                                                    <img src="assets/images/shop/product/pic11.avif" alt=""
                                                         class="w-full">
                                                 </div>
                                                 <div class="mr-5 flex-[1]">
-                                                    <h6 class="mb-2 font-medium"><a href="product-thumbnail.html">Cozy
-                                                            Knit Cardigan Sweater</a></h6>
+                                                    <h6 class="mb-2 font-medium">
+                                                        <a href="product-thumbnail.html">Hardcover Notebook Journal</a>
+                                                    </h6>
                                                     <div class="flex items-center">
                                                         <div class="input-group">
                                                             <span class="flex">
@@ -569,13 +547,13 @@
                                             x-show="console.log('sup'); return show" x-transition.opacity>
                                             <div class="flex items-center justify-center">
                                                 <div class="size-20 rounded-3xl relative overflow-hidden mr-4">
-                                                    <img src="assets/images/shop/shop-cart/pic3.jpg" alt=""
-                                                        class="w-full">
+                                                    <img src="assets/images/shop/product/pic25.avif" alt=""
+                                                        class="w-full h-full">
                                                 </div>
                                                 <div class="mr-5 flex-[1]">
-                                                    <h6 class="mb-2 font-medium"><a
-                                                            href="product-thumbnail.html">Athletic Mesh Sports
-                                                            Leggings</a></h6>
+                                                    <h6 class="mb-2 font-medium">
+                                                        <a href="product-thumbnail.html">Pack of Color Highlighters</a>
+                                                    </h6>
                                                     <div class="flex items-center">
                                                         <div class="input-group">
                                                             <span class="flex">
@@ -598,25 +576,13 @@
                                         </div>
                                     </li>
                                 </ul>
+
                                 <div class="flex items-center justify-between p-4.5 mb-2.5">
                                     <h5 class="font-bold">Subtotal:</h5>
-                                    <h5 class="font-bold">300.00$</h5>
+                                    <h5 class="font-bold">$155.00</h5>
                                 </div>
                                 <div class="mt-auto">
-                                    <div class="flex items-center mb-10">
-                                        <div class="size-13.5 mr-5 flex items-center justify-center">
-                                            <i class="flaticon flaticon-ship text-[55px]"></i>
-                                        </div>
-                                        <div class="shipping-content">
-                                            <h6 class="mb-2 pr-6">Congratulations , you've got free shipping!</h6>
-                                            <div class="h-1.1 bg-[#e9ecef] overflow-hidden flex">
-                                                <div class="bg-secondary progress-animated border-0" style="width: 75%;"
-                                                    role="progressbar">
-                                                    <span class="sr-only">75% Complete</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+
                                     <a href="shop-checkout.html"
                                         class="btn py-3 px-7.5 max-sm:px-6 text-base max-sm:text-sm inline-block font-medium font-Lufga leading-[1.2] border border-secondary rounded-xl duration-700 hover:bg-secondary hover:text-white relative overflow-hidden text-center w-full mb-5">Checkout</a>
                                     <a href="shop-cart.html"
@@ -625,86 +591,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div x-show="tab == 'wishlist'" x-transition:enter="transition-all duration-700 easy-in-out"
-                            x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100">
-                            <div class="flex flex-col min-h-[calc(100vh_-_190px)]">
-                                <ul class="sidebar-cart-list">
-                                    <li x-data="{show: true}">
-                                        <div class="py-5 border-b border-border" x-ref="show"
-                                            x-show="console.log('sup'); return show" x-transition.opacity>
-                                            <div class="flex items-center justify-center">
-                                                <div class="size-20 rounded-3xl relative overflow-hidden mr-4">
-                                                    <img src="assets/images/shop/shop-cart/pic1.jpg" alt=""
-                                                        class="w-full">
-                                                </div>
-                                                <div class="mr-5 flex-[1]">
-                                                    <h6 class="mb-2 font-medium"><a
-                                                            href="product-thumbnail.html">Sophisticated Swagger Suit</a>
-                                                    </h6>
-                                                    <div class="flex items-center">
-                                                        <h6 class="font-medium">$50.00</h6>
-                                                    </div>
-                                                </div>
-                                                <a href="javascript:void(0);" class="size-7 flex items-center"
-                                                    @click="$refs.show.remove()">
-                                                    <i class="ti-close"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li x-data="{show: true}">
-                                        <div class="py-5 border-b border-border" x-ref="show"
-                                            x-show="console.log('sup'); return show" x-transition.opacity>
-                                            <div class="flex items-center justify-center">
-                                                <div class="size-20 rounded-3xl relative overflow-hidden mr-4">
-                                                    <img src="assets/images/shop/shop-cart/pic2.jpg" alt=""
-                                                        class="w-full">
-                                                </div>
-                                                <div class="mr-5 flex-[1]">
-                                                    <h6 class="mb-2 font-medium"><a href="product-thumbnail.html">Cozy
-                                                            Knit Cardigan Sweater</a></h6>
-                                                    <div class="flex items-center">
-                                                        <h6 class="font-medium">$40.00</h6>
-                                                    </div>
-                                                </div>
-                                                <a href="javascript:void(0);" class="size-7 flex items-center"
-                                                    @click="$refs.show.remove()">
-                                                    <i class="ti-close"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li x-data="{show: true}">
-                                        <div class="py-5 border-b border-border" x-ref="show"
-                                            x-show="console.log('sup'); return show" x-transition.opacity>
-                                            <div class="flex items-center justify-center">
-                                                <div class="size-20 rounded-3xl relative overflow-hidden mr-4">
-                                                    <img src="assets/images/shop/shop-cart/pic3.jpg" alt=""
-                                                        class="w-full">
-                                                </div>
-                                                <div class="mr-5 flex-[1]">
-                                                    <h6 class="mb-2 font-medium"><a
-                                                            href="product-thumbnail.html">Athletic Mesh Sports
-                                                            Leggings</a></h6>
-                                                    <div class="flex items-center">
-                                                        <h6 class="font-medium">$65.00</h6>
-                                                    </div>
-                                                </div>
-                                                <a href="javascript:void(0);" class="size-7 flex items-center"
-                                                    @click="$refs.show.remove()">
-                                                    <i class="ti-close"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <div class="mt-auto">
-                                    <a href="shop-wishlist.html"
-                                        class="btn py-3 px-7.5 max-sm:px-6 text-base max-sm:text-sm font-Lufga font-medium leading-[1.2] border border-secondary bg-secondary text-white rounded-xl duration-700 relative overflow-hidden text-center block w-full">Check
-                                        Your Favourite</a>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>

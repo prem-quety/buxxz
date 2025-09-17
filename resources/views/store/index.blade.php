@@ -14,7 +14,7 @@
                             <div class="xl:w-7/12 lg:w-7/12 w-full self-center">
                                 <div class="max-sm:mb-7.5">
                                     <div class="relative z-[2] pb-[45px] max-xl:pb-5">
-                                        <h1 class="text-5xl md:text-6xl lg:text-7xl font-semibold leading-snug"
+                                        <h1 class="text-6xl md:text-7xl lg:text-7xl font-semibold leading-snug"
                                             data-swiper-parallax="-20">
                                             Your Ultimate
                                             <span class="text-primary flex items-center">
@@ -24,15 +24,16 @@
                                                         d="M34 0L43.6167 24.3833L68 34L43.6167 43.6167L34 68L24.3833 43.6167L0 34L24.3833 24.3833L34 0Z"
                                                         fill="var(--primary)" />
                                                 </svg>
-                                                Online Store
+                                                Stationery Store
                                             </span>
-                                            for All Your Needs.
+                                            for All Your Creative <br /> & Office Needs.
                                         </h1>
+
 
                                         <p class="text-2xl md:text-3xl lg:text-4xl font-medium text-gray-700 mt-3"
                                             data-swiper-parallax="-40">
-                                            No coding needed. Plus free shipping on
-                                            <span class="text-primary font-bold">$99+</span> orders!
+                                            Smart Stationery for
+                                            <span class="text-primary font-bold">Smarter</span> Work!
                                         </p>
                                     </div>
                                     <div class="content-btn" data-swiper-parallax="-60">
@@ -550,8 +551,8 @@
                 <div class="row justify-between items-end">
                     <div class="lg:w-2/3 md:w-2/3 w-full">
                         <div class="wow fadeInUp" data-wow-delay="0.1s">
-                            <h2 class="text-6xl max-xl:text-[45px] max-md:!text-2.5xl capitalize text-white">We’re just keep
-                                growing with 6.3k trusted companies</h2>
+                            <h2 class="text-6xl max-xl:text-[45px] max-md:!text-2.5xl capitalize text-white">Partnered with
+                                Dozens of Trusted Companies</h2>
                         </div>
                     </div>
                     <div class="md:w-1/3 w-full md:flex justify-center mb-7.5 wow fadeInUp" data-wow-delay="0.2s">
@@ -617,7 +618,7 @@
                                 <div
                                     class="flex items-center justify-center bg-white h-full min-h-25 rounded-3xl w-[190px] max-md:w-[150px] max-md:h-17 max-sm:!w-[125px] max-sm:h-13.5">
                                     <img src="assets/images/companies/logo5.png" alt=""
-                                        class="w-[90px] max-sm:w-17 group-hover:animate-toBottomFromTop">
+                                        class="w-[90px] max-sm:w-17 group-hover:animate-toBottomFromTop invert">
                                 </div>
                             </a>
                         </div>
@@ -711,7 +712,7 @@
                                 <div
                                     class="flex items-center justify-center bg-white h-full min-h-25 rounded-3xl w-[190px] max-md:w-[150px] max-md:h-17 max-sm:!w-[125px] max-sm:h-13.5">
                                     <img src="assets/images/companies/logo5.png" alt=""
-                                        class="w-[90px] max-sm:w-17 group-hover:animate-toBottomFromTop">
+                                        class="w-[90px] max-sm:w-17 group-hover:animate-toBottomFromTop invert">
                                 </div>
                             </a>
                         </div>
@@ -774,15 +775,15 @@
                     <div class="xl:w-1/6 w-1/3 wow fadeIn" data-wow-delay="0.1s">
                         <div class="block relative overflow-hidden group">
                             <a href="portfolio-tiles.html">
-                                <img src="assets/images/clothe/feature/1.png" alt=""
-                                    class="duration-300 group-hover:[transform:scale(1.3)_rotate(-20deg)] w-full">
+                                <img src="assets/images/clothe/feature/1.webp" alt=""
+                                    class="duration-300 group-hover:[transform:scale(1.3)_rotate(-20deg)] w-full ">
                             </a>
                         </div>
                     </div>
                     <div class="xl:w-1/6 w-1/3 wow fadeIn" data-wow-delay="0.2s">
                         <div class="block relative overflow-hidden group">
                             <a href="portfolio-tiles.html">
-                                <img src="assets/images/clothe/feature/2.png" alt=""
+                                <img src="assets/images/clothe/feature/2.webp" alt=""
                                     class="duration-300 group-hover:[transform:scale(1.3)_rotate(-20deg)] w-full">
                             </a>
                         </div>
@@ -790,7 +791,7 @@
                     <div class="xl:w-1/6 w-1/3 wow fadeIn" data-wow-delay="0.3s">
                         <div class="block relative overflow-hidden group">
                             <a href="portfolio-tiles.html">
-                                <img src="assets/images/clothe/feature/3.png" alt=""
+                                <img src="assets/images/clothe/feature/3.webp" alt=""
                                     class="duration-300 group-hover:[transform:scale(1.3)_rotate(-20deg)] w-full">
                             </a>
                         </div>
@@ -798,7 +799,7 @@
                     <div class="xl:w-1/6 w-1/3 wow fadeIn" data-wow-delay="0.4s">
                         <div class="block relative overflow-hidden group">
                             <a href="portfolio-tiles.html">
-                                <img src="assets/images/clothe/feature/4.png" alt=""
+                                <img src="assets/images/clothe/feature/4.jpg" alt=""
                                     class="duration-300 group-hover:[transform:scale(1.3)_rotate(-20deg)] w-full">
                             </a>
                         </div>
@@ -806,7 +807,7 @@
                     <div class="xl:w-1/6 w-1/3 wow fadeIn" data-wow-delay="0.5s">
                         <div class="block relative overflow-hidden group">
                             <a href="portfolio-tiles.html">
-                                <img src="assets/images/clothe/feature/5.png" alt=""
+                                <img src="assets/images/clothe/feature/5.webp" alt=""
                                     class="duration-300 group-hover:[transform:scale(1.3)_rotate(-20deg)] w-full">
                             </a>
                         </div>
@@ -814,7 +815,7 @@
                     <div class="xl:w-1/6 w-1/3 wow fadeIn" data-wow-delay="0.6s">
                         <div class="block relative overflow-hidden group">
                             <a href="portfolio-tiles.html">
-                                <img src="assets/images/clothe/feature/6.png" alt=""
+                                <img src="assets/images/clothe/feature/6.webp" alt=""
                                     class="duration-300 group-hover:[transform:scale(1.3)_rotate(-20deg)] w-full">
                             </a>
                         </div>
