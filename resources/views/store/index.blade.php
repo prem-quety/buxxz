@@ -244,8 +244,8 @@
                             <div class="swiper-slide">
                                 <div class="relative z-1 h-full group">
                                     <div class="relative overflow-hidden rounded-3xl duration-500">
-                                        <img src="assets/images/shop/product/pic14.avif" alt="image"
-                                            class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
+                                        <img src="assets/images/shop/product/pic37.webp" alt="image"
+                                            class="rounded-3xl duration-500 h-96 w-full group-hover:-translate-y-5">
                                         <div
                                             class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
                                             <a href="javascript:void(0);" @click="open = true"
@@ -267,22 +267,20 @@
                                     </div>
                                     <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
                                         <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                href="shop-list.html">Premium Gel Pen Set</a></h5>
+                                                href="shop-list.html">Premium Color Marker Set</a></h5>
                                         <h5 class="max-sm:text-2xs">$12</h5>
                                     </div>
                                     <div
                                         class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                        <span
-                                            class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                            20% Off</span>
+
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="relative z-1 h-full group">
                                     <div class="relative overflow-hidden rounded-3xl duration-500">
-                                        <img src="assets/images/shop/product/pic15.avif" alt="image"
-                                            class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
+                                        <img src="assets/images/shop/product/pic38.webp" alt="image"
+                                            class="rounded-3xl h-96 duration-500 w-full group-hover:-translate-y-5">
                                         <div
                                             class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
                                             <a href="javascript:void(0);" @click="open = true"
@@ -304,14 +302,12 @@
                                     </div>
                                     <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
                                         <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                href="shop-list.html">Adjustable Desk Organizer</a></h5>
+                                                href="shop-list.html">Acrylic Vertical Drawer</a></h5>
                                         <h5 class="max-sm:text-2xs">$25</h5>
                                     </div>
                                     <div
                                         class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                        <span
-                                            class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                            20% Off</span>
+
                                     </div>
                                 </div>
                             </div>
@@ -319,7 +315,7 @@
                                 <div class="relative z-1 h-full group">
                                     <div class="relative overflow-hidden rounded-3xl duration-500">
                                         <img src="assets/images/shop/product/pic16.avif" alt="image"
-                                            class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
+                                            class="rounded-3xl duration-500 h-96 w-full group-hover:-translate-y-5">
                                         <div
                                             class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
                                             <a href="javascript:void(0);" @click="open = true"
@@ -341,14 +337,12 @@
                                     </div>
                                     <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
                                         <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                href="shop-list.html">Highlighter & Marker Pack</a></h5>
+                                                href="shop-list.html">Highlighters & Markers</a></h5>
                                         <h5 class="max-sm:text-2xs">$10</h5>
                                     </div>
                                     <div
                                         class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                        <span
-                                            class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                            20% Off</span>
+
                                     </div>
                                 </div>
                             </div>
@@ -356,11 +350,11 @@
                                 <div class="relative z-1 h-full group">
                                     <div class="relative overflow-hidden rounded-3xl duration-500">
                                         <img src="assets/images/shop/product/pic17.avif" alt="image"
-                                            class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
+                                            class="rounded-3xl duration-500 h-96 w-full group-hover:-translate-y-5">
                                         <div
                                             class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
                                             <a href="javascript:void(0);" @click="open = true"
-                                                class="btn py-3 px-7.5 text-sm font-Lufga inline-block font-medium leading-[1.2] bg-secondary text-white rounded-full duration-500 hover:bg-primary group-hover:-bottom-1 max-sm:group-hover:bottom-[-15px] -bottom-16 left-1/2 -translate-x-1/2 whitespace-nowrap absolute overflow-hidden border-4 border-[#fffaf3]">
+                                                class="btn py-3 px-7.5 text-sm font-Lufga inline-bflock font-medium leading-[1.2] bg-secondary text-white rounded-full duration-500 hover:bg-primary group-hover:-bottom-1 max-sm:group-hover:bottom-[-15px] -bottom-16 left-1/2 -translate-x-1/2 whitespace-nowrap absolute overflow-hidden border-4 border-[#fffaf3]">
                                                 <i class="fa-solid fa-eye md:hidden block"></i>
                                                 <span class="md:block hidden">Isn't it Amazing?</span>
                                             </a>
@@ -378,14 +372,12 @@
                                     </div>
                                     <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
                                         <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                href="shop-list.html">Ergonomic Office Chair</a></h5>
+                                                href="shop-list.html">Paint Brushes</a></h5>
                                         <h5 class="max-sm:text-2xs">$120</h5>
                                     </div>
                                     <div
                                         class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                        <span
-                                            class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                            20% Off</span>
+
                                     </div>
                                 </div>
                             </div>
@@ -393,7 +385,7 @@
                                 <div class="relative z-1 h-full group">
                                     <div class="relative overflow-hidden rounded-3xl duration-500">
                                         <img src="assets/images/shop/product/pic18.avif" alt="image"
-                                            class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
+                                            class="rounded-3xl duration-500 h-96 w-full group-hover:-translate-y-5">
                                         <div
                                             class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
                                             <a href="javascript:void(0);" @click="open = true"
@@ -415,22 +407,20 @@
                                     </div>
                                     <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
                                         <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                href="shop-list.html">Multipurpose Stationery Kit</a></h5>
+                                                href="shop-list.html">Multicolor Liquid Inks</a></h5>
                                         <h5 class="max-sm:text-2xs">$30</h5>
                                     </div>
                                     <div
                                         class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                        <span
-                                            class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                            20% Off</span>
+
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="relative z-1 h-full group">
                                     <div class="relative overflow-hidden rounded-3xl duration-500">
-                                        <img src="assets/images/shop/product/pic19.avif" alt="image"
-                                            class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
+                                        <img src="assets/images/shop/product/pic39.jpg" alt="image"
+                                            class="rounded-3xl duration-500 h-96 w-full group-hover:-translate-y-5">
                                         <div
                                             class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
                                             <a href="javascript:void(0);" @click="open = true"
@@ -452,22 +442,20 @@
                                     </div>
                                     <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
                                         <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                href="shop-list.html">Binder Clips & Stapler Combo</a></h5>
+                                                href="shop-list.html">Fountain Pens Pack</a></h5>
                                         <h5 class="max-sm:text-2xs">$15</h5>
                                     </div>
                                     <div
                                         class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                        <span
-                                            class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                            20% Off</span>
+
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="relative z-1 h-full group">
                                     <div class="relative overflow-hidden rounded-3xl duration-500">
-                                        <img src="assets/images/shop/product/pic15.avif" alt="image"
-                                            class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
+                                        <img src="assets/images/shop/product/pic40.webp" alt="image"
+                                            class="rounded-3xl duration-500 h-96 w-full group-hover:-translate-y-5">
                                         <div
                                             class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
                                             <a href="javascript:void(0);" @click="open = true"
@@ -489,22 +477,20 @@
                                     </div>
                                     <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
                                         <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                href="shop-list.html">School Backpack – Durable Nylon</a></h5>
+                                                href="shop-list.html">Magazine File Holder</a></h5>
                                         <h5 class="max-sm:text-2xs">$45</h5>
                                     </div>
                                     <div
                                         class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                        <span
-                                            class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                            20% Off</span>
+
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="relative z-1 h-full group">
                                     <div class="relative overflow-hidden rounded-3xl duration-500">
-                                        <img src="assets/images/shop/product/pic16.avif" alt="image"
-                                            class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
+                                        <img src="assets/images/shop/product/pic41.avif" alt="image"
+                                            class="rounded-3xl duration-500 h-96 w-full group-hover:-translate-y-5">
                                         <div
                                             class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
                                             <a href="javascript:void(0);" @click="open = true"
@@ -526,14 +512,12 @@
                                     </div>
                                     <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
                                         <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                href="shop-list.html">Athletic Mesh Sports Leggings</a></h5>
+                                                href="shop-list.html">Sticky Notes Pack</a></h5>
                                         <h5 class="max-sm:text-2xs">$80</h5>
                                     </div>
                                     <div
                                         class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                        <span
-                                            class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                            20% Off</span>
+
                                     </div>
                                 </div>
                             </div>

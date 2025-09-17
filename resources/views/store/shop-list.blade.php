@@ -192,7 +192,8 @@
                             <ul class="flex items-center flex-wrap max-3xl:hidden filter-tag">
                                 <li class="py-1.1">
                                     <a href="javascript:void(0);"
-                                        class="py-1.5 px-2.5 mr-2.5 border border-secondary rounded-2xl uppercase flex items-center justify-center text-2xs">Dresses
+                                        class="py-1.5 px-2.5 mr-2.5 border border-secondary rounded-2xl uppercase flex items-center justify-center text-2xs">School
+                                        Supplies
                                         <i class="icon feather icon-x tag-close text-lg"></i>
                                     </a>
                                 </li>
@@ -228,17 +229,7 @@
                                     <option>high to Low</option>
                                 </select>
                             </div>
-                            <div class="border-l border-border max-sm:hidden">
-                                <select
-                                    class="nice-select style-1 border-0 leading-[45px] text-2sm pl-5 pr-16 bg-transparent after:content-['\f078'] after:!text-title">
-                                    <option>Products</option>
-                                    <option>9 Products</option>
-                                    <option>12 Products</option>
-                                    <option>14 Products</option>
-                                    <option>18 Products</option>
-                                    <option>24 Products</option>
-                                </select>
-                            </div>
+
                             <div class="border-l border-border max-md:border-none max-xl:ml-auto shop-tab">
                                 <ul class="flex" id="dz-shop-tab">
                                     <li>
@@ -275,74 +266,8 @@
                                             </svg>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="shop-list.html#tab-list-column"
-                                            class="size-10 flex items-center justify-end"
-                                            @click.prevent="tab = 'tab-list-column'">
-                                            <svg class="size-5 opacity-30"
-                                                :class="{ '!opacity-100': tab == 'tab-list-column'}"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px"
-                                                y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
-                                                xml:space="preserve" width="512" height="512">
-                                                <g>
-                                                    <path
-                                                        d="M85.333,0h64c47.128,0,85.333,38.205,85.333,85.333v64c0,47.128-38.205,85.333-85.333,85.333h-64   C38.205,234.667,0,196.462,0,149.333v-64C0,38.205,38.205,0,85.333,0z">
-                                                    </path>
-                                                    <path
-                                                        d="M362.667,0h64C473.795,0,512,38.205,512,85.333v64c0,47.128-38.205,85.333-85.333,85.333h-64   c-47.128,0-85.333-38.205-85.333-85.333v-64C277.333,38.205,315.538,0,362.667,0z">
-                                                    </path>
-                                                    <path
-                                                        d="M85.333,277.333h64c47.128,0,85.333,38.205,85.333,85.333v64c0,47.128-38.205,85.333-85.333,85.333h-64   C38.205,512,0,473.795,0,426.667v-64C0,315.538,38.205,277.333,85.333,277.333z">
-                                                    </path>
-                                                    <path
-                                                        d="M362.667,277.333h64c47.128,0,85.333,38.205,85.333,85.333v64C512,473.795,473.795,512,426.667,512h-64   c-47.128,0-85.333-38.205-85.333-85.333v-64C277.333,315.538,315.538,277.333,362.667,277.333z">
-                                                    </path>
-                                                </g>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li class="max-md:hidden">
-                                        <a href="shop-list.html#tab-list-grid" class="size-10 flex items-center justify-end"
-                                            @click.prevent="tab = 'tab-list-grid'">
-                                            <svg class="size-5 opacity-30"
-                                                :class="{ '!opacity-100': tab == 'tab-list-grid'}"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_2" x="0px"
-                                                y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
-                                                xml:space="preserve" width="512" height="512">
-                                                <g>
-                                                    <path
-                                                        d="M42.667,373.333H96c23.564,0,42.667,19.103,42.667,42.667v53.333C138.667,492.898,119.564,512,96,512H42.667   C19.103,512,0,492.898,0,469.333V416C0,392.436,19.103,373.333,42.667,373.333z">
-                                                    </path>
-                                                    <path
-                                                        d="M416,373.333h53.333C492.898,373.333,512,392.436,512,416v53.333C512,492.898,492.898,512,469.333,512H416   c-23.564,0-42.667-19.102-42.667-42.667V416C373.333,392.436,392.436,373.333,416,373.333z">
-                                                    </path>
-                                                    <path
-                                                        d="M42.667,186.667H96c23.564,0,42.667,19.103,42.667,42.667v53.333c0,23.564-19.103,42.667-42.667,42.667H42.667   C19.103,325.333,0,306.231,0,282.667v-53.333C0,205.769,19.103,186.667,42.667,186.667z">
-                                                    </path>
-                                                    <path
-                                                        d="M416,186.667h53.333c23.564,0,42.667,19.103,42.667,42.667v53.333c0,23.564-19.102,42.667-42.667,42.667H416   c-23.564,0-42.667-19.103-42.667-42.667v-53.333C373.333,205.769,392.436,186.667,416,186.667z">
-                                                    </path>
-                                                    <path
-                                                        d="M42.667,0H96c23.564,0,42.667,19.103,42.667,42.667V96c0,23.564-19.103,42.667-42.667,42.667H42.667   C19.103,138.667,0,119.564,0,96V42.667C0,19.103,19.103,0,42.667,0z">
-                                                    </path>
-                                                    <path
-                                                        d="M229.333,373.333h53.333c23.564,0,42.667,19.103,42.667,42.667v53.333c0,23.564-19.103,42.667-42.667,42.667h-53.333   c-23.564,0-42.667-19.102-42.667-42.667V416C186.667,392.436,205.769,373.333,229.333,373.333z">
-                                                    </path>
-                                                    <path
-                                                        d="M229.333,186.667h53.333c23.564,0,42.667,19.103,42.667,42.667v53.333c0,23.564-19.103,42.667-42.667,42.667h-53.333   c-23.564,0-42.667-19.103-42.667-42.667v-53.333C186.667,205.769,205.769,186.667,229.333,186.667z">
-                                                    </path>
-                                                    <path
-                                                        d="M229.333,0h53.333c23.564,0,42.667,19.103,42.667,42.667V96c0,23.564-19.103,42.667-42.667,42.667h-53.333   c-23.564,0-42.667-19.103-42.667-42.667V42.667C186.667,19.103,205.769,0,229.333,0z">
-                                                    </path>
-                                                    <path
-                                                        d="M416,0h53.333C492.898,0,512,19.103,512,42.667V96c0,23.564-19.102,42.667-42.667,42.667H416   c-23.564,0-42.667-19.103-42.667-42.667V42.667C373.333,19.103,392.436,0,416,0z">
-                                                    </path>
-                                                </g>
-                                            </svg>
-                                        </a>
-                                    </li>
+
+
                                 </ul>
                             </div>
                         </div>
@@ -357,19 +282,20 @@
                                         <div class="flex mb-7.5 max-sm:block">
                                             <div
                                                 class="max-w-[290px] max-h-[290px] rounded-3xl mr-7.5 overflow-hidden max-md:mr-3.6 max-sm:!mr-0 max-sm:w-full max-sm:max-w-full">
-                                                <img src="assets/images/shop/product/pic7.avif" alt="image"
+                                                <img src="assets/images/shop/product/pic42.webp" alt="image"
                                                     class="object-cover w-full">
                                             </div>
                                             <div class="flex-1 self-center max-md:pt-5">
                                                 <div class="flex items-center justify-between">
                                                     <div>
-                                                        <h4 class="title mb-0"><a href="shop-with-category.html">Stylish
-                                                                Fedora Hat Collection</a></h4>
+                                                        <h4 class="title mb-0"><a
+                                                                href="shop-with-category.html">Polypropylene Magazine File
+                                                                Holder</a></h4>
                                                         <ul class="flex">
                                                             <li><a class="text-sm mr-1.1"
                                                                     href="shop-with-category.html">Accessories,</a></li>
                                                             <li><a class="text-sm mr-1.1"
-                                                                    href="shop-with-category.html">Markers</a></li>
+                                                                    href="shop-with-category.html">Holders</a></li>
                                                         </ul>
                                                     </div>
                                                     <div class="flex flex-col ml-4.5 text-center min-w-25">
@@ -443,20 +369,192 @@
                                         <div class="flex mb-7.5 max-sm:block">
                                             <div
                                                 class="max-w-[290px] max-h-[290px] rounded-3xl mr-7.5 overflow-hidden max-md:mr-3.6 max-sm:!mr-0 max-sm:w-full max-sm:max-w-full">
-                                                <img src="assets/images/shop/product/pic22.avif" alt="image"
+                                                <img src="assets/images/shop/product/pic43.webp" alt="image"
+                                                    class="object-cover w-full">
+                                            </div>
+                                            <div class="flex-1 self-center max-md:pt-5">
+                                                <div class="flex items-center justify-between">
+                                                    <div>
+                                                        <h4 class="title mb-0"><a href="shop-with-category.html">Black
+                                                                Highlighter</a></h4>
+                                                        <ul class="flex">
+                                                            <li><a class="text-sm mr-1.1"
+                                                                    href="shop-with-category.html">Accessories,</a></li>
+                                                            <li><a class="text-sm mr-1.1"
+                                                                    href="shop-with-category.html">Highlighter</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="flex flex-col ml-4.5 text-center min-w-25">
+                                                        <ul class="flex gap-0.5 justify-center">
+                                                            <li class="text-secondary">
+                                                                <i class="flaticon-star-1"></i>
+                                                            </li>
+                                                            <li class="text-secondary">
+                                                                <i class="flaticon-star-1"></i>
+                                                            </li>
+                                                            <li class="text-secondary">
+                                                                <i class="flaticon-star-1"></i>
+                                                            </li>
+                                                            <li class="text-[#d5d5d5]">
+                                                                <i class="flaticon-star-1"></i>
+                                                            </li>
+                                                            <li class="text-[#d5d5d5]">
+                                                                <i class="flaticon-star-1"></i>
+                                                            </li>
+                                                        </ul>
+                                                        <span><a class="text-body text-2xs" href="javascript:void(0);"> 370
+                                                                Review</a></span>
+                                                    </div>
+                                                </div>
+                                                <div class="mt-3.6">
+                                                    <div class="dz-rating-box">
+                                                        <div>
+                                                            <p
+                                                                class="text-body pr-7.5 max-lg:pr-0 mb-4 max-lg:mb-0 text-2sm font-light max-md:hidden">
+                                                                Discover premium stationery designed to spark creativity and
+                                                                productivity.
+                                                                From elegant notebooks and fine pens to practical office
+                                                                supplies,
+                                                                our collection brings both style and function to your desk.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="flex justify-between items-center max-xl:block max-xl:mt-2.5">
+                                                        <div class="flex items-center xl:mb-4 mb-2">
+                                                            <div class="mr-20 max-sm:mr-7.5">
+                                                                <span class="text-body text-sm inline-block">Price</span>
+                                                                <span
+                                                                    class="font-medium font-Lufga text-xl block">$40.00</span>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="flex">
+                                                            <a href="shop-cart.html"
+                                                                class="btn py-2.5 px-5 max-sm:px-2.5 text-base max-md:text-lg font-Lufga flex items-center font-medium leading-[1.2] border border-secondary bg-secondary text-white rounded-xl duration-700 relative overflow-hidden">
+                                                                <i
+                                                                    class="icon feather icon-shopping-cart md:hidden block"></i>
+                                                                <span class="md:block hidden capitalize">Add to cart</span>
+                                                            </a>
+                                                            <div class="bookmark-btn style-1">
+                                                                <input class="form-check-input hidden" type="checkbox"
+                                                                    id="favoriteCheck1">
+                                                                <label
+                                                                    class="ml-2.5 size-11 leading-10 text-center border border-secondary text-lg cursor-pointer bg-white rounded-xl block form-check-label"
+                                                                    for="favoriteCheck1">
+                                                                    <i class="fa-solid fa-heart"></i>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="w-full">
+                                        <div class="flex mb-7.5 max-sm:block">
+                                            <div
+                                                class="max-w-[290px] max-h-[290px] rounded-3xl mr-7.5 overflow-hidden max-md:mr-3.6 max-sm:!mr-0 max-sm:w-full max-sm:max-w-full">
+                                                <img src="assets/images/shop/product/pic44.webp" alt="image"
+                                                    class="object-cover w-full">
+                                            </div>
+                                            <div class="flex-1 self-center max-md:pt-5">
+                                                <div class="flex items-center justify-between">
+                                                    <div>
+                                                        <h4 class="title mb-0"><a href="shop-with-category.html">Office
+                                                                Notes Copy Dark Cover</a></h4>
+                                                        <ul class="flex">
+                                                            <li><a class="text-sm mr-1.1"
+                                                                    href="shop-with-category.html">Accessories,</a></li>
+                                                            <li><a class="text-sm mr-1.1"
+                                                                    href="shop-with-category.html">Notes</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="flex flex-col ml-4.5 text-center min-w-25">
+                                                        <ul class="flex gap-0.5 justify-center">
+                                                            <li class="text-secondary">
+                                                                <i class="flaticon-star-1"></i>
+                                                            </li>
+                                                            <li class="text-secondary">
+                                                                <i class="flaticon-star-1"></i>
+                                                            </li>
+                                                            <li class="text-secondary">
+                                                                <i class="flaticon-star-1"></i>
+                                                            </li>
+                                                            <li class="text-[#d5d5d5]">
+                                                                <i class="flaticon-star-1"></i>
+                                                            </li>
+                                                            <li class="text-[#d5d5d5]">
+                                                                <i class="flaticon-star-1"></i>
+                                                            </li>
+                                                        </ul>
+                                                        <span><a class="text-body text-2xs" href="javascript:void(0);"> 370
+                                                                Review</a></span>
+                                                    </div>
+                                                </div>
+                                                <div class="mt-3.6">
+                                                    <div class="dz-rating-box">
+                                                        <div>
+                                                            <p
+                                                                class="text-body pr-7.5 max-lg:pr-0 mb-4 max-lg:mb-0 text-2sm font-light max-md:hidden">
+                                                                Discover premium stationery designed to spark creativity and
+                                                                productivity.
+                                                                From elegant notebooks and fine pens to practical office
+                                                                supplies,
+                                                                our collection brings both style and function to your desk.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="flex justify-between items-center max-xl:block max-xl:mt-2.5">
+                                                        <div class="flex items-center xl:mb-4 mb-2">
+                                                            <div class="mr-20 max-sm:mr-7.5">
+                                                                <span class="text-body text-sm inline-block">Price</span>
+                                                                <span
+                                                                    class="font-medium font-Lufga text-xl block">$40.00</span>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="flex">
+                                                            <a href="shop-cart.html"
+                                                                class="btn py-2.5 px-5 max-sm:px-2.5 text-base max-md:text-lg font-Lufga flex items-center font-medium leading-[1.2] border border-secondary bg-secondary text-white rounded-xl duration-700 relative overflow-hidden">
+                                                                <i
+                                                                    class="icon feather icon-shopping-cart md:hidden block"></i>
+                                                                <span class="md:block hidden capitalize">Add to cart</span>
+                                                            </a>
+                                                            <div class="bookmark-btn style-1">
+                                                                <input class="form-check-input hidden" type="checkbox"
+                                                                    id="favoriteCheck1">
+                                                                <label
+                                                                    class="ml-2.5 size-11 leading-10 text-center border border-secondary text-lg cursor-pointer bg-white rounded-xl block form-check-label"
+                                                                    for="favoriteCheck1">
+                                                                    <i class="fa-solid fa-heart"></i>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="w-full">
+                                        <div class="flex mb-7.5 max-sm:block">
+                                            <div
+                                                class="max-w-[290px] max-h-[290px] rounded-3xl mr-7.5 overflow-hidden max-md:mr-3.6 max-sm:!mr-0 max-sm:w-full max-sm:max-w-full">
+                                                <img src="assets/images/shop/product/pic45.webp" alt="image"
                                                     class="object-cover w-full">
                                             </div>
                                             <div class="flex-1 self-center max-md:pt-5">
                                                 <div class="flex items-center justify-between">
                                                     <div>
                                                         <h4 class="title mb-0"><a
-                                                                href="shop-with-category.html">Sophisticated Swagger
-                                                                Suit</a></h4>
+                                                                href="shop-with-category.html">Sophisticated Black Pen</a>
+                                                        </h4>
                                                         <ul class="flex">
                                                             <li><a class="text-sm mr-1.1"
                                                                     href="shop-with-category.html">Accessories,</a></li>
                                                             <li><a class="text-sm mr-1.1"
-                                                                    href="shop-with-category.html">Markers</a></li>
+                                                                    href="shop-with-category.html">Pens</a></li>
                                                         </ul>
                                                     </div>
                                                     <div class="flex flex-col ml-4.5 text-center min-w-25">
@@ -530,19 +628,19 @@
                                         <div class="flex mb-7.5 max-sm:block">
                                             <div
                                                 class="max-w-[290px] max-h-[290px] rounded-3xl mr-7.5 overflow-hidden max-md:mr-3.6 max-sm:!mr-0 max-sm:w-full max-sm:max-w-full">
-                                                <img src="assets/images/shop/product/pic25.avif" alt="image"
+                                                <img src="assets/images/shop/product/pic46.webp" alt="image"
                                                     class="object-cover w-full">
                                             </div>
                                             <div class="flex-1 self-center max-md:pt-5">
                                                 <div class="flex items-center justify-between">
                                                     <div>
-                                                        <h4 class="title mb-0"><a href="shop-with-category.html">Retro
-                                                                Markers Collection</a></h4>
+                                                        <h4 class="title mb-0"><a href="shop-with-category.html">White
+                                                                Colored Push Pins</a></h4>
                                                         <ul class="flex">
                                                             <li><a class="text-sm mr-1.1"
                                                                     href="shop-with-category.html">Accessories,</a></li>
                                                             <li><a class="text-sm mr-1.1"
-                                                                    href="shop-with-category.html">Markers</a></li>
+                                                                    href="shop-with-category.html">Push Pins</a></li>
                                                         </ul>
                                                     </div>
                                                     <div class="flex flex-col ml-4.5 text-center min-w-25">
@@ -616,19 +714,19 @@
                                         <div class="flex mb-7.5 max-sm:block">
                                             <div
                                                 class="max-w-[290px] max-h-[290px] rounded-3xl mr-7.5 overflow-hidden max-md:mr-3.6 max-sm:!mr-0 max-sm:w-full max-sm:max-w-full">
-                                                <img src="assets/images/shop/product/pic32.avif" alt="image"
+                                                <img src="assets/images/shop/product/pic47.webp" alt="image"
                                                     class="object-cover w-full">
                                             </div>
                                             <div class="flex-1 self-center max-md:pt-5">
                                                 <div class="flex items-center justify-between">
                                                     <div>
-                                                        <h4 class="title mb-0"><a href="shop-with-category.html">Stylish
-                                                                Fedora Hat Collection</a></h4>
+                                                        <h4 class="title mb-0"><a href="shop-with-category.html">12 Digit
+                                                                Non-Scientific Calculator</a></h4>
                                                         <ul class="flex">
                                                             <li><a class="text-sm mr-1.1"
                                                                     href="shop-with-category.html">Accessories,</a></li>
                                                             <li><a class="text-sm mr-1.1"
-                                                                    href="shop-with-category.html">Markers</a></li>
+                                                                    href="shop-with-category.html">Calculators</a></li>
                                                         </ul>
                                                     </div>
                                                     <div class="flex flex-col ml-4.5 text-center min-w-25">
@@ -700,604 +798,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div x-show="tab == 'tab-list-column'"
-                                x-transition:enter="transition-all duration-700 easy-in-out"
-                                x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100">
-                                <div class="row gx-xl-4 g-3 max-xl:mb-0 mb-4">
-                                    <div class="w-1/2 lg:w-1/2 sm:w-1/2 mb-0 md:mb-3.6 lg:mb-7.5">
-                                        <div class="relative z-1 h-full group">
-                                            <div class="relative overflow-hidden rounded-3xl duration-500">
-                                                <img src="assets/images/shop/product/pic7.avif" alt="image"
-                                                    class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
-                                                <div
-                                                    class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
-                                                    <a href="javascript:void(0);" @click="open = true"
-                                                        class="btn py-3 px-7.5 text-sm font-Lufga inline-block font-medium leading-[1.2] bg-secondary text-white rounded-full duration-500 hover:bg-primary group-hover:-bottom-1 max-sm:group-hover:bottom-[-15px] -bottom-16 left-1/2 -translate-x-1/2 whitespace-nowrap absolute overflow-hidden border-4 border-[#fffaf3]">
-                                                        <i class="fa-solid fa-eye md:hidden block"></i>
-                                                        <span class="md:block hidden">Quick View</span>
-                                                    </a>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-wishicon">
-                                                        <i class="icon feather icon-heart dz-heart text-white text-lg"></i>
-                                                        <i
-                                                            class="icon feather icon-heart-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-carticon">
-                                                        <i class="flaticon flaticon-basket text-white text-lg"></i>
-                                                        <i
-                                                            class="flaticon flaticon-basket-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
-                                                <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                        href="shop-list.html">Cozy Knit Cardigan Sweater</a></h5>
-                                                <h5 class="max-sm:text-2xs">$80</h5>
-                                            </div>
-                                            <div
-                                                class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                                <span
-                                                    class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                                    20% Off</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-1/2 lg:w-1/2 sm:w-1/2 mb-0 md:mb-3.6 lg:mb-7.5">
-                                        <div class="relative z-1 h-full group">
-                                            <div class="relative overflow-hidden rounded-3xl duration-500">
-                                                <img src="assets/images/shop/product/pic22.avif" alt="image"
-                                                    class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
-                                                <div
-                                                    class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
-                                                    <a href="javascript:void(0);" @click="open = true"
-                                                        class="btn py-3 px-7.5 text-sm font-Lufga inline-block font-medium leading-[1.2] bg-secondary text-white rounded-full duration-500 hover:bg-primary group-hover:-bottom-1 max-sm:group-hover:bottom-[-15px] -bottom-16 left-1/2 -translate-x-1/2 whitespace-nowrap absolute overflow-hidden border-4 border-[#fffaf3]">
-                                                        <i class="fa-solid fa-eye md:hidden block"></i>
-                                                        <span class="md:block hidden">Quick View</span>
-                                                    </a>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-wishicon">
-                                                        <i class="icon feather icon-heart dz-heart text-white text-lg"></i>
-                                                        <i
-                                                            class="icon feather icon-heart-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-carticon">
-                                                        <i class="flaticon flaticon-basket text-white text-lg"></i>
-                                                        <i
-                                                            class="flaticon flaticon-basket-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
-                                                <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                        href="shop-list.html">Sophisticated Swagger Suit</a></h5>
-                                                <h5 class="max-sm:text-2xs">$80</h5>
-                                            </div>
-                                            <div
-                                                class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                                <span
-                                                    class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                                    20% Off</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-1/2 lg:w-1/2 sm:w-1/2 mb-0 md:mb-3.6 lg:mb-7.5">
-                                        <div class="relative z-1 h-full group">
-                                            <div class="relative overflow-hidden rounded-3xl duration-500">
-                                                <img src="assets/images/shop/product/pic25.avif" alt="image"
-                                                    class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
-                                                <div
-                                                    class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
-                                                    <a href="javascript:void(0);" @click="open = true"
-                                                        class="btn py-3 px-7.5 text-sm font-Lufga inline-block font-medium leading-[1.2] bg-secondary text-white rounded-full duration-500 hover:bg-primary group-hover:-bottom-1 max-sm:group-hover:bottom-[-15px] -bottom-16 left-1/2 -translate-x-1/2 whitespace-nowrap absolute overflow-hidden border-4 border-[#fffaf3]">
-                                                        <i class="fa-solid fa-eye md:hidden block"></i>
-                                                        <span class="md:block hidden">Quick View</span>
-                                                    </a>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-wishicon">
-                                                        <i class="icon feather icon-heart dz-heart text-white text-lg"></i>
-                                                        <i
-                                                            class="icon feather icon-heart-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-carticon">
-                                                        <i class="flaticon flaticon-basket text-white text-lg"></i>
-                                                        <i
-                                                            class="flaticon flaticon-basket-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
-                                                <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                        href="shop-list.html">Classic Denim Skinny Jeans</a></h5>
-                                                <h5 class="max-sm:text-2xs">$80</h5>
-                                            </div>
-                                            <div
-                                                class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                                <span
-                                                    class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                                    20% Off</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-1/2 lg:w-1/2 sm:w-1/2 mb-0 md:mb-3.6 lg:mb-7.5">
-                                        <div class="relative z-1 h-full group">
-                                            <div class="relative overflow-hidden rounded-3xl duration-500">
-                                                <img src="assets/images/shop/product/pic32.avif" alt="image"
-                                                    class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
-                                                <div
-                                                    class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
-                                                    <a href="javascript:void(0);" @click="open = true"
-                                                        class="btn py-3 px-7.5 text-sm font-Lufga inline-block font-medium leading-[1.2] bg-secondary text-white rounded-full duration-500 hover:bg-primary group-hover:-bottom-1 max-sm:group-hover:bottom-[-15px] -bottom-16 left-1/2 -translate-x-1/2 whitespace-nowrap absolute overflow-hidden border-4 border-[#fffaf3]">
-                                                        <i class="fa-solid fa-eye md:hidden block"></i>
-                                                        <span class="md:block hidden">Quick View</span>
-                                                    </a>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-wishicon">
-                                                        <i class="icon feather icon-heart dz-heart text-white text-lg"></i>
-                                                        <i
-                                                            class="icon feather icon-heart-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-carticon">
-                                                        <i class="flaticon flaticon-basket text-white text-lg"></i>
-                                                        <i
-                                                            class="flaticon flaticon-basket-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
-                                                <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                        href="shop-list.html">Athletic Mesh Sports Leggings</a></h5>
-                                                <h5 class="max-sm:text-2xs">$80</h5>
-                                            </div>
-                                            <div
-                                                class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                                <span
-                                                    class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                                    20% Off</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-1/2 lg:w-1/2 sm:w-1/2 mb-0 md:mb-3.6 lg:mb-7.5">
-                                        <div class="relative z-1 h-full group">
-                                            <div class="relative overflow-hidden rounded-3xl duration-500">
-                                                <img src="assets/images/shop/product/pic34.avif" alt="image"
-                                                    class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
-                                                <div
-                                                    class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
-                                                    <a href="javascript:void(0);" @click="open = true"
-                                                        class="btn py-3 px-7.5 text-sm font-Lufga inline-block font-medium leading-[1.2] bg-secondary text-white rounded-full duration-500 hover:bg-primary group-hover:-bottom-1 max-sm:group-hover:bottom-[-15px] -bottom-16 left-1/2 -translate-x-1/2 whitespace-nowrap absolute overflow-hidden border-4 border-[#fffaf3]">
-                                                        <i class="fa-solid fa-eye md:hidden block"></i>
-                                                        <span class="md:block hidden">Quick View</span>
-                                                    </a>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-wishicon">
-                                                        <i class="icon feather icon-heart dz-heart text-white text-lg"></i>
-                                                        <i
-                                                            class="icon feather icon-heart-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-carticon">
-                                                        <i class="flaticon flaticon-basket text-white text-lg"></i>
-                                                        <i
-                                                            class="flaticon flaticon-basket-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
-                                                <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                        href="shop-list.html">Vintage Denim Overalls Shorts</a></h5>
-                                                <h5 class="max-sm:text-2xs">$80</h5>
-                                            </div>
-                                            <div
-                                                class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                                <span
-                                                    class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                                    20% Off</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-1/2 lg:w-1/2 sm:w-1/2 mb-0 md:mb-3.6 lg:mb-7.5">
-                                        <div class="relative z-1 h-full group">
-                                            <div class="relative overflow-hidden rounded-3xl duration-500">
-                                                <img src="assets/images/shop/product/pic27.avif" alt="image"
-                                                    class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
-                                                <div
-                                                    class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
-                                                    <a href="javascript:void(0);" @click="open = true"
-                                                        class="btn py-3 px-7.5 text-sm font-Lufga inline-block font-medium leading-[1.2] bg-secondary text-white rounded-full duration-500 hover:bg-primary group-hover:-bottom-1 max-sm:group-hover:bottom-[-15px] -bottom-16 left-1/2 -translate-x-1/2 whitespace-nowrap absolute overflow-hidden border-4 border-[#fffaf3]">
-                                                        <i class="fa-solid fa-eye md:hidden block"></i>
-                                                        <span class="md:block hidden">Quick View</span>
-                                                    </a>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-wishicon">
-                                                        <i class="icon feather icon-heart dz-heart text-white text-lg"></i>
-                                                        <i
-                                                            class="icon feather icon-heart-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-carticon">
-                                                        <i class="flaticon flaticon-basket text-white text-lg"></i>
-                                                        <i
-                                                            class="flaticon flaticon-basket-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
-                                                <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                        href="shop-list.html">Satin Wrap Party Blouse</a></h5>
-                                                <h5 class="max-sm:text-2xs">$80</h5>
-                                            </div>
-                                            <div
-                                                class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                                <span
-                                                    class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                                    20% Off</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-1/2 lg:w-1/2 sm:w-1/2 mb-0 md:mb-3.6 lg:mb-7.5">
-                                        <div class="relative z-1 h-full group">
-                                            <div class="relative overflow-hidden rounded-3xl duration-500">
-                                                <img src="assets/images/shop/product/pic35.avif" alt="image"
-                                                    class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
-                                                <div
-                                                    class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
-                                                    <a href="javascript:void(0);" @click="open = true"
-                                                        class="btn py-3 px-7.5 text-sm font-Lufga inline-block font-medium leading-[1.2] bg-secondary text-white rounded-full duration-500 hover:bg-primary group-hover:-bottom-1 max-sm:group-hover:bottom-[-15px] -bottom-16 left-1/2 -translate-x-1/2 whitespace-nowrap absolute overflow-hidden border-4 border-[#fffaf3]">
-                                                        <i class="fa-solid fa-eye md:hidden block"></i>
-                                                        <span class="md:block hidden">Quick View</span>
-                                                    </a>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-wishicon">
-                                                        <i class="icon feather icon-heart dz-heart text-white text-lg"></i>
-                                                        <i
-                                                            class="icon feather icon-heart-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-carticon">
-                                                        <i class="flaticon flaticon-basket text-white text-lg"></i>
-                                                        <i
-                                                            class="flaticon flaticon-basket-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
-                                                <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                        href="shop-list.html">Satin Wrap Party Blouse</a></h5>
-                                                <h5 class="max-sm:text-2xs">$80</h5>
-                                            </div>
-                                            <div
-                                                class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                                <span
-                                                    class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                                    20% Off</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-1/2 lg:w-1/2 sm:w-1/2 mb-0 md:mb-3.6 lg:mb-7.5">
-                                        <div class="relative z-1 h-full group">
-                                            <div class="relative overflow-hidden rounded-3xl duration-500">
-                                                <img src="assets/images/shop/product/pic36.avif" alt="image"
-                                                    class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
-                                                <div
-                                                    class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
-                                                    <a href="javascript:void(0);" @click="open = true"
-                                                        class="btn py-3 px-7.5 text-sm font-Lufga inline-block font-medium leading-[1.2] bg-secondary text-white rounded-full duration-500 hover:bg-primary group-hover:-bottom-1 max-sm:group-hover:bottom-[-15px] -bottom-16 left-1/2 -translate-x-1/2 whitespace-nowrap absolute overflow-hidden border-4 border-[#fffaf3]">
-                                                        <i class="fa-solid fa-eye md:hidden block"></i>
-                                                        <span class="md:block hidden">Quick View</span>
-                                                    </a>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-wishicon">
-                                                        <i class="icon feather icon-heart dz-heart text-white text-lg"></i>
-                                                        <i
-                                                            class="icon feather icon-heart-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-carticon">
-                                                        <i class="flaticon flaticon-basket text-white text-lg"></i>
-                                                        <i
-                                                            class="flaticon flaticon-basket-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
-                                                <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                        href="shop-list.html">Plaid Wool Winter Coat</a></h5>
-                                                <h5 class="max-sm:text-2xs">$80</h5>
-                                            </div>
-                                            <div
-                                                class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                                <span
-                                                    class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                                    20% Off</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div x-show="tab == 'tab-list-grid'"
-                                x-transition:enter="transition-all duration-700 easy-in-out"
-                                x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100">
-                                <div class="row gx-xl-4 g-3 max-xl:mb-0 mb-4">
-                                    <div class="w-1/2 sm:w-1/3 mb-0 md:mb-3.6 lg:mb-7.5">
-                                        <div class="relative z-1 h-full group">
-                                            <div class="relative overflow-hidden rounded-3xl duration-500">
-                                                <img src="assets/images/shop/product/pic7.avif" alt="image"
-                                                    class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
-                                                <div
-                                                    class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
-                                                    <a href="javascript:void(0);" @click="open = true"
-                                                        class="btn py-3 px-7.5 text-sm font-Lufga inline-block font-medium leading-[1.2] bg-secondary text-white rounded-full duration-500 hover:bg-primary group-hover:-bottom-1 max-sm:group-hover:bottom-[-15px] -bottom-16 left-1/2 -translate-x-1/2 whitespace-nowrap absolute overflow-hidden border-4 border-[#fffaf3]">
-                                                        <i class="fa-solid fa-eye md:hidden block"></i>
-                                                        <span class="md:block hidden">Quick View</span>
-                                                    </a>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-wishicon">
-                                                        <i class="icon feather icon-heart dz-heart text-white text-lg"></i>
-                                                        <i
-                                                            class="icon feather icon-heart-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-carticon">
-                                                        <i class="flaticon flaticon-basket text-white text-lg"></i>
-                                                        <i
-                                                            class="flaticon flaticon-basket-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
-                                                <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                        href="shop-list.html">Cozy Knit Cardigan Sweater</a></h5>
-                                                <h5 class="max-sm:text-2xs">$80</h5>
-                                            </div>
-                                            <div
-                                                class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                                <span
-                                                    class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                                    20% Off</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-1/2 sm:w-1/3 mb-0 md:mb-3.6 lg:mb-7.5">
-                                        <div class="relative z-1 h-full group">
-                                            <div class="relative overflow-hidden rounded-3xl duration-500">
-                                                <img src="assets/images/shop/product/pic22.avif" alt="image"
-                                                    class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
-                                                <div
-                                                    class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
-                                                    <a href="javascript:void(0);" @click="open = true"
-                                                        class="btn py-3 px-7.5 text-sm font-Lufga inline-block font-medium leading-[1.2] bg-secondary text-white rounded-full duration-500 hover:bg-primary group-hover:-bottom-1 max-sm:group-hover:bottom-[-15px] -bottom-16 left-1/2 -translate-x-1/2 whitespace-nowrap absolute overflow-hidden border-4 border-[#fffaf3]">
-                                                        <i class="fa-solid fa-eye md:hidden block"></i>
-                                                        <span class="md:block hidden">Quick View</span>
-                                                    </a>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-wishicon">
-                                                        <i class="icon feather icon-heart dz-heart text-white text-lg"></i>
-                                                        <i
-                                                            class="icon feather icon-heart-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-carticon">
-                                                        <i class="flaticon flaticon-basket text-white text-lg"></i>
-                                                        <i
-                                                            class="flaticon flaticon-basket-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
-                                                <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                        href="shop-list.html">Sophisticated Swagger Suit</a></h5>
-                                                <h5 class="max-sm:text-2xs">$80</h5>
-                                            </div>
-                                            <div
-                                                class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                                <span
-                                                    class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                                    20% Off</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-1/2 sm:w-1/3 mb-0 md:mb-3.6 lg:mb-7.5">
-                                        <div class="relative z-1 h-full group">
-                                            <div class="relative overflow-hidden rounded-3xl duration-500">
-                                                <img src="assets/images/shop/product/pic25.avif" alt="image"
-                                                    class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
-                                                <div
-                                                    class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
-                                                    <a href="javascript:void(0);" @click="open = true"
-                                                        class="btn py-3 px-7.5 text-sm font-Lufga inline-block font-medium leading-[1.2] bg-secondary text-white rounded-full duration-500 hover:bg-primary group-hover:-bottom-1 max-sm:group-hover:bottom-[-15px] -bottom-16 left-1/2 -translate-x-1/2 whitespace-nowrap absolute overflow-hidden border-4 border-[#fffaf3]">
-                                                        <i class="fa-solid fa-eye md:hidden block"></i>
-                                                        <span class="md:block hidden">Quick View</span>
-                                                    </a>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-wishicon">
-                                                        <i class="icon feather icon-heart dz-heart text-white text-lg"></i>
-                                                        <i
-                                                            class="icon feather icon-heart-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-carticon">
-                                                        <i class="flaticon flaticon-basket text-white text-lg"></i>
-                                                        <i
-                                                            class="flaticon flaticon-basket-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
-                                                <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                        href="shop-list.html">Classic Denim Skinny Jeans</a></h5>
-                                                <h5 class="max-sm:text-2xs">$80</h5>
-                                            </div>
-                                            <div
-                                                class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                                <span
-                                                    class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                                    20% Off</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-1/2 sm:w-1/3 mb-0 md:mb-3.6 lg:mb-7.5">
-                                        <div class="relative z-1 h-full group">
-                                            <div class="relative overflow-hidden rounded-3xl duration-500">
-                                                <img src="assets/images/shop/product/pic32.avif" alt="image"
-                                                    class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
-                                                <div
-                                                    class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
-                                                    <a href="javascript:void(0);" @click="open = true"
-                                                        class="btn py-3 px-7.5 text-sm font-Lufga inline-block font-medium leading-[1.2] bg-secondary text-white rounded-full duration-500 hover:bg-primary group-hover:-bottom-1 max-sm:group-hover:bottom-[-15px] -bottom-16 left-1/2 -translate-x-1/2 whitespace-nowrap absolute overflow-hidden border-4 border-[#fffaf3]">
-                                                        <i class="fa-solid fa-eye md:hidden block"></i>
-                                                        <span class="md:block hidden">Quick View</span>
-                                                    </a>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-wishicon">
-                                                        <i class="icon feather icon-heart dz-heart text-white text-lg"></i>
-                                                        <i
-                                                            class="icon feather icon-heart-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-carticon">
-                                                        <i class="flaticon flaticon-basket text-white text-lg"></i>
-                                                        <i
-                                                            class="flaticon flaticon-basket-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
-                                                <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                        href="shop-list.html">Athletic Mesh Sports Leggings</a></h5>
-                                                <h5 class="max-sm:text-2xs">$80</h5>
-                                            </div>
-                                            <div
-                                                class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                                <span
-                                                    class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                                    20% Off</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-1/2 sm:w-1/3 mb-0 md:mb-3.6 lg:mb-7.5">
-                                        <div class="relative z-1 h-full group">
-                                            <div class="relative overflow-hidden rounded-3xl duration-500">
-                                                <img src="assets/images/shop/product/pic34.avif" alt="image"
-                                                    class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
-                                                <div
-                                                    class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
-                                                    <a href="javascript:void(0);" @click="open = true"
-                                                        class="btn py-3 px-7.5 text-sm font-Lufga inline-block font-medium leading-[1.2] bg-secondary text-white rounded-full duration-500 hover:bg-primary group-hover:-bottom-1 max-sm:group-hover:bottom-[-15px] -bottom-16 left-1/2 -translate-x-1/2 whitespace-nowrap absolute overflow-hidden border-4 border-[#fffaf3]">
-                                                        <i class="fa-solid fa-eye md:hidden block"></i>
-                                                        <span class="md:block hidden">Quick View</span>
-                                                    </a>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-wishicon">
-                                                        <i class="icon feather icon-heart dz-heart text-white text-lg"></i>
-                                                        <i
-                                                            class="icon feather icon-heart-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-carticon">
-                                                        <i class="flaticon flaticon-basket text-white text-lg"></i>
-                                                        <i
-                                                            class="flaticon flaticon-basket-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
-                                                <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                        href="shop-list.html">Vintage Denim Overalls Shorts</a></h5>
-                                                <h5 class="max-sm:text-2xs">$80</h5>
-                                            </div>
-                                            <div
-                                                class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                                <span
-                                                    class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                                    20% Off</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-1/2 sm:w-1/3 mb-0 md:mb-3.6 lg:mb-7.5">
-                                        <div class="relative z-1 h-full group">
-                                            <div class="relative overflow-hidden rounded-3xl duration-500">
-                                                <img src="assets/images/shop/product/pic35.avif" alt="image"
-                                                    class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
-                                                <div
-                                                    class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
-                                                    <a href="javascript:void(0);" @click="open = true"
-                                                        class="btn py-3 px-7.5 text-sm font-Lufga inline-block font-medium leading-[1.2] bg-secondary text-white rounded-full duration-500 hover:bg-primary group-hover:-bottom-1 max-sm:group-hover:bottom-[-15px] -bottom-16 left-1/2 -translate-x-1/2 whitespace-nowrap absolute overflow-hidden border-4 border-[#fffaf3]">
-                                                        <i class="fa-solid fa-eye md:hidden block"></i>
-                                                        <span class="md:block hidden">Quick View</span>
-                                                    </a>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-wishicon">
-                                                        <i class="icon feather icon-heart dz-heart text-white text-lg"></i>
-                                                        <i
-                                                            class="icon feather icon-heart-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-carticon">
-                                                        <i class="flaticon flaticon-basket text-white text-lg"></i>
-                                                        <i
-                                                            class="flaticon flaticon-basket-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
-                                                <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                        href="shop-list.html">Satin Wrap Party Blouse</a></h5>
-                                                <h5 class="max-sm:text-2xs">$80</h5>
-                                            </div>
-                                            <div
-                                                class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                                <span
-                                                    class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                                    20% Off</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-1/2 sm:w-1/3 mb-0 md:mb-3.6 lg:mb-7.5">
-                                        <div class="relative z-1 h-full group">
-                                            <div class="relative overflow-hidden rounded-3xl duration-500">
-                                                <img src="assets/images/shop/product/pic36.avif" alt="image"
-                                                    class="rounded-3xl duration-500 w-full group-hover:-translate-y-5">
-                                                <div
-                                                    class="absolute bottom-0 left-0 size-full flex flex-col justify-start items-end gap-1.1 p-3.6 max-sm:px-2.5 max-sm:gap-0 max-sm:group-hover:bottom-3.6 duration-200">
-                                                    <a href="javascript:void(0);" @click="open = true"
-                                                        class="btn py-3 px-7.5 text-sm font-Lufga inline-block font-medium leading-[1.2] bg-secondary text-white rounded-full duration-500 hover:bg-primary group-hover:-bottom-1 max-sm:group-hover:bottom-[-15px] -bottom-16 left-1/2 -translate-x-1/2 whitespace-nowrap absolute overflow-hidden border-4 border-[#fffaf3]">
-                                                        <i class="fa-solid fa-eye md:hidden block"></i>
-                                                        <span class="md:block hidden">Quick View</span>
-                                                    </a>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-wishicon">
-                                                        <i class="icon feather icon-heart dz-heart text-white text-lg"></i>
-                                                        <i
-                                                            class="icon feather icon-heart-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                    <div
-                                                        class="size-[45px] max-sm:size-7.5 max-sm:group-hover:-bottom-2.5 bg-[#0000004d] flex items-center justify-center rounded-full mb-1.1 shadow-default relative overflow-hidden btn meta-icon dz-carticon">
-                                                        <i class="flaticon flaticon-basket text-white text-lg"></i>
-                                                        <i
-                                                            class="flaticon flaticon-basket-on dz-heart-fill text-white text-lg"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="text-start py-5 max-sm:p-2.5 flex justify-between">
-                                                <h5 class="w-[70%] max-xl:w-full max-sm:text-sm capitalize"><a
-                                                        href="shop-list.html">Plaid Wool Winter Coat</a></h5>
-                                                <h5 class="max-sm:text-2xs">$80</h5>
-                                            </div>
-                                            <div
-                                                class="absolute top-5 left-5 max-sm:top-2.5 max-sm:left-2.5 w-auto flex items-center justify-between">
-                                                <span
-                                                    class="py-1.1 px-3.6 max-sm:py-0.5 max-sm:px-2 max-sm:text-xxs bg-white font-Lufga text-xs min-w-[22px] min-h-[22px] leading-[18px] uppercase text-center font-semibold rounded-3.5xl">Get
-                                                    20% Off</span>
-                                            </div>
-                                        </div>
-                                    </div>
 
-                                </div>
-                            </div>
+
                         </div>
                         <!-- Quick Modal Start -->
                         <div class="fixed inset-0 bg-black/60 transition-opacity z-999999 overflow-x-hidden overflow-y-auto mt-0"

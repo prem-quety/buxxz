@@ -41,28 +41,11 @@
             <div class="flex">
                 <form class="h-[90px] w-full ml-[120px] max-xl:ml-14.5 items-center flex relative">
                     <div class="relative flex flex-wrap items-center bg-white rounded-xl py-1.1 w-full">
-                        <div
-                            class="relative after:content-[''] after:absolute after:-translate-y-1/2 after:top-1/2 after:right-0 after:w-[1px] after:h-[22px] max-sm:after:h-6.1 after:bg-[#bbbbbbad]">
-                            <select class="nice-select style-1 border-0 leading-[45px] text-2sm pl-5 pr-16">
-                                <option>All Categories</option>
-                                <option>Photography </option>
-                                <option>Arts</option>
-                                <option>Adventure</option>
-                                <option>Action</option>
-                                <option>Games</option>
-                                <option>Movies</option>
-                                <option>Comics</option>
-                                <option>Biographies</option>
-                                <option>Children’s Books</option>
-                                <option>Historical</option>
-                                <option>Contemporary</option>
-                                <option>Classics</option>
-                                <option>Education</option>
-                            </select>
-                        </div>
-                        <input type="text"
-                            class="py-2.5 px-5 text-2sm text-title outline-none flex-auto w-[1%] h-[45px] border-0"
+
+                        <input type="text" class="py-2.5 px-5 text-2sm text-title flex-auto w-[1%] ml-2 h-[45px] 
+         border-0 outline-none focus:outline-none focus:ring-0 focus:border-0"
                             aria-label="Text input with dropdown button" placeholder="Search for products">
+
                         <button class="absolute right-0 size-12 justify-center inline-flex items-center" type="button">
                             <i class="iconly-Light-Search text-secondary"></i>
                         </button>
@@ -245,10 +228,10 @@
                                     </a>
                                 </li>
                                 <!-- <li class="nav-item register-link">
-                                                                                                                                                                                    <a class="nav-link border-b border-[#0000005c]" href="{{ route('register') }}">
-                                                                                                                                                                                        Register
-                                                                                                                                                                                    </a>
-                                                                                                                                                                                </li> -->
+                                                                                                                                                                                                                                <a class="nav-link border-b border-[#0000005c]" href="{{ route('register') }}">
+                                                                                                                                                                                                                                    Register
+                                                                                                                                                                                                                                </a>
+                                                                                                                                                                                                                            </li> -->
                             @else
                                 <li class="nav-item">
                                     <span class="nav-link  border-[#0000005c]">
@@ -265,11 +248,7 @@
                                 </li>
                             @endguest
 
-                            <li>
-                                <a href="javascript:void(0);" class="offcanvas-btn" data-target="offcanvasTop">
-                                    <i class="iconly-Light-Search"></i>
-                                </a>
-                            </li>
+
                             <li>
                                 <a class="offcanvas-btn" @click.prevent="tab = 'wishlist'"
                                     href="{{ route('store.listings') }}" data-target="offcanvasRight">
@@ -294,150 +273,7 @@
     </div>
     <!-- Main Header End -->
 
-    <!-- SearchBar -->
-    <div class="h-[580px] max-md:h-[470px] max-sm:!h-[440px] pt-13.5 max-md:pt-7.5 fixed z-[1045] flex flex-col duration-500 top-0 left-0 right-0 bg-light overflow-auto offcanvas offcanvas-top is-closed"
-        tabindex="-1" id="offcanvasTop">
-        <button type="button"
-            class="size-10 flex items-center justify-center absolute top-1.5 right-5 opacity-50 text-4.5xl offcanvas-close">
-            &times;
-        </button>
-        <div class="container">
-            <form class="block w-full mb-13.5 relative">
-                <div class="relative flex flex-wrap items-center border-b-2 border-secondary pb-2">
-                    <div
-                        class="relative after:content-[''] after:absolute after:-translate-y-1/2 after:top-1/2 after:right-0 after:w-[1px] after:h-[35px] max-sm:after:h-6.1 after:bg-[#bbbbbbad]">
-                        <select
-                            class="nice-select bg-transparent border-0 float-none px-0 text-xl min-w-[270px] font-Lufga h-[45px] leading-[48px]">
-                            <option>All Categories</option>
-                            <option>Clothes</option>
-                            <option>UrbanSkirt</option>
-                            <option>VelvetGown</option>
-                            <option>LushShorts</option>
-                            <option>Vintage</option>
-                            <option>Wedding</option>
-                            <option>Cotton</option>
-                            <option>Linen</option>
-                            <option>Navy</option>
-                            <option>Urban</option>
-                            <option>Business Meeting</option>
-                            <option>Formal</option>
-                        </select>
-                    </div>
-                    <input type="search"
-                        class="py-2.5 px-3.6 text-xl font-Lufga text-title outline-none flex-auto w-[1%] h-[45px] bg-light"
-                        placeholder="Search Product">
-                    <button class="btn" type="button">
-                        <i class="iconly-Light-Search"></i>
-                    </button>
-                </div>
-                <ul class="flex items-center flex-wrap py-2.5">
-                    <li class="text-2sm py-1.1"><span>Quick Search :</span></li>
-                    <li class="text-2sm py-1.1 px-3.6 "><a href="shop-list.html">Clothes</a></li>
-                    <li class="text-2sm py-1.1 px-3.6 "><a href="shop-list.html">UrbanSkirt</a></li>
-                    <li class="text-2sm py-1.1 px-3.6 "><a href="shop-list.html">VelvetGown</a></li>
-                    <li class="text-2sm py-1.1 px-3.6 "><a href="shop-list.html">LushShorts</a></li>
-                </ul>
-            </form>
-            <div class="row">
-                <div class="w-full">
-                    <h5 class="mb-4">You May Also Like</h5>
-                    <div class="swiper category-swiper2">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="relative z-[1] h-full">
-                                    <div class="rounded-3xl overflow-hidden relative">
-                                        <img src="assets/images/shop/product/1.png" alt="image">
-                                    </div>
-                                    <div class="flex justify-between font-Lufga py-3">
-                                        <h6><a href="shop-list.html">SilkBliss Dress</a></h6>
-                                        <h6>$40.00</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="relative z-[1] h-full">
-                                    <div class="rounded-3xl overflow-hidden relative">
-                                        <img src="assets/images/shop/product/3.png" alt="image">
-                                    </div>
-                                    <div class="flex justify-between font-Lufga py-3">
-                                        <h6><a href="shop-list.html">GlamPants</a></h6>
-                                        <h6>$30.00</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="relative z-[1] h-full">
-                                    <div class="rounded-3xl overflow-hidden relative">
-                                        <img src="assets/images/shop/product/4.png" alt="image">
-                                    </div>
-                                    <div class="flex justify-between font-Lufga py-3">
-                                        <h6><a href="shop-list.html">ComfyLeggings</a></h6>
-                                        <h6>$35.00</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="relative z-[1] h-full">
-                                    <div class="rounded-3xl overflow-hidden relative">
-                                        <img src="assets/images/shop/product/2.png" alt="image">
-                                    </div>
-                                    <div class="flex justify-between font-Lufga py-3">
-                                        <h6><a href="shop-list.html">ClassicCapri</a></h6>
-                                        <h6>$20.00</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="relative z-[1] h-full">
-                                    <div class="rounded-3xl overflow-hidden relative">
-                                        <img src="assets/images/shop/product/5.png" alt="image">
-                                    </div>
-                                    <div class="flex justify-between font-Lufga py-3">
-                                        <h6><a href="shop-list.html">DapperCoat</a></h6>
-                                        <h6>$70.00</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="relative z-[1] h-full">
-                                    <div class="rounded-3xl overflow-hidden relative">
-                                        <img src="assets/images/shop/product/6.png" alt="image">
-                                    </div>
-                                    <div class="flex justify-between font-Lufga py-3">
-                                        <h6><a href="shop-list.html">ComfyLeggings</a></h6>
-                                        <h6>$45.00</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="relative z-[1] h-full">
-                                    <div class="rounded-3xl overflow-hidden relative">
-                                        <img src="assets/images/shop/product/7.png" alt="image">
-                                    </div>
-                                    <div class="flex justify-between font-Lufga py-3">
-                                        <h6><a href="shop-list.html">DenimDream Jeans</a></h6>
-                                        <h6>$40.00</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="relative z-[1] h-full">
-                                    <div class="rounded-3xl overflow-hidden relative">
-                                        <img src="assets/images/shop/product/4.png" alt="image">
-                                    </div>
-                                    <div class="flex justify-between font-Lufga py-3">
-                                        <h6><a href="shop-list.html">SilkBliss Dress</a></h6>
-                                        <h6>$60.00</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- SearchBar -->
+
 
     <!-- Sidebar cart -->
     <div class="w-[485px] fixed z-[1045] flex flex-col max-full duration-500 top-0 bottom-0 right-0 bg-light right offcanvas is-closed"
